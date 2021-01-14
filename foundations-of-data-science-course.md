@@ -50,8 +50,7 @@ prep hours allow the instructional team to collaborate and teach the
 Foundations Coursethrough a weekly schedule across the semester.
 
 ![A picture containing timeline Description automatically
-generated](media/media/image22.png){width="5.06448709536308in"
-height="2.2968755468066493in"}
+generated](media/media/image22.png)
 
 Key Pedagogical or Curricular Strategies
 
@@ -96,72 +95,61 @@ entry and the basis to develop a positive data science identity.
 
 Links to Key Cyber Resources and their Implementation
 
--   [[The Foundations Course website]{.underline}](http://data8.org/)
-    > has all previous iterations of the course here.
+-   [The Foundations Course website](http://data8.org/)
+    has all previous iterations of the course here.
 
--   [[The Jupyter Book from Zero to Data
-    > 8]{.underline}](http://data8.org/zero-to-data-8/intro) goes over
-    > the pedagogical methods utilized in Data 8 and discusses how to
-    > begin teaching an introductory data science course at your
-    > university.
+-   [The Jupyter Book from Zero to Data 8](http://data8.org/zero-to-data-8/intro) goes over
+    the pedagogical methods utilized in Data 8 and discusses how to
+    begin teaching an introductory data science course at your
+    university.
 
--   [[The Public
-    > Repository]{.underline}](https://github.com/data-8/materials-sp20)
-    > contains the Juptyer notebooks for the Homeworks, Labs, and
-    > Lectures. These materials are what the students work on through
-    > the course of Data 8.
+-   [The Public Repository](https://github.com/data-8/materials-sp20)
+    contains the Juptyer notebooks for the Homeworks, Labs, and
+    Lectures. These materials are what the students work on through
+    the course of Data 8.
 
--   The course textbook, [[Computational and Inferential Thinking: The
-    > Foundations of Data
-    > Science]{.underline}](https://www.inferentialthinking.com/chapters/intro),
-    > is the textbook for Data 8 at UC Berkeley. The book is a free
-    > online textbook that includes interactive Jupyter notebooks and
-    > public data sets for all examples. The textbook source is
-    > maintained as an open-source project under the CC BY-NC-ND 4.0
-    > License.
+-   The course textbook, [Computational and Inferential Thinking: The Foundations of Data Science](https://www.inferentialthinking.com/chapters/intro),
+    is the textbook for Data 8 at UC Berkeley. The book is a free
+    online textbook that includes interactive Jupyter notebooks and
+    public data sets for all examples. The textbook source is
+    maintained as an open-source project under the CC BY-NC-ND 4.0
+    License.
 
--   [[Data
-    > 8x]{.underline}](https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science)
-    > is a Massive Open Online Course (MOOC) of Data 8 offered on edX
-    > that increases access for Data 8 to students around the world. The
-    > course contains recorded pedagogy videos by Professor John Denero,
-    > Ani Adhikari, and David Wagner.
+-   [Data 8x](https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science)
+    is a Massive Open Online Course (MOOC) of Data 8 offered on edX
+    that increases access for Data 8 to students around the world. The
+    course contains recorded pedagogy videos by Professor John Denero,
+    Ani Adhikari, and David Wagner.
 
 -   Berkeley-centric guides for the Foundations Course teaching
-    > assistants and tutors: [[GSI handbook]{.underline}
-    > and](https://docs.google.com/document/d/12Omx9ReOavGjZb8Rk71BQzHK3MZ6EBE9YMpph0qP6Rg/edit?usp=sharing)
-    > [[Tutor
-    > handbook]{.underline}](https://docs.google.com/document/d/1ja7gkIa5ueHaoFJSdcRQamcTTi_T_t3O9ZHSZQ_KUvI/edit?usp=sharing)
+    assistants and tutors: [GSI handbook](https://docs.google.com/document/d/12Omx9ReOavGjZb8Rk71BQzHK3MZ6EBE9YMpph0qP6Rg/edit) and
+    [Tutor handbook](https://docs.google.com/document/d/1ja7gkIa5ueHaoFJSdcRQamcTTi_T_t3O9ZHSZQ_KUvI/edit)
 
--   [[UC Berkeley JupyterHubs
-    > guide]{.underline}](https://docs.datahub.berkeley.edu/en/latest/)
-    > contains information about all of the JupyterHubs at UC Berkeley
-    > and is a good reference for how our teams coordinate technical
-    > infrastructure across classes and resources.
+-   [UC Berkeley JupyterHubs guide](https://docs.datahub.berkeley.edu/en/latest/)
+    contains information about all of the JupyterHubs at UC Berkeley
+    and is a good reference for how our teams coordinate technical
+    infrastructure across classes and resources.
 
--   [[Spring 2020 materials]{.underline}](http://data8.org/sp20/)
-    > include links to slides, lecture videos, and Jupyter notebooks for
-    > each demo and lab assignment, and readings.
+-   [Spring 2020 materials](http://data8.org/sp20/)
+    include links to slides, lecture videos, and Jupyter notebooks for
+    each demo and lab assignment, and readings.
 
--   [[YouTube collection of Spring 2016
-    > lectures](https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y)]{.underline}
-    > were hosted by the [[Webcast
-    > Department]{.underline}](https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/featured).
-    > Recordings of more recent iterations are available but only 2016
-    > is saved as a playlist.
+-   [YouTube collection of Spring 2016 lectures](https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y)]
+    were hosted by the [Webcast Department](https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/featured).
+    Recordings of more recent iterations are available but only 2016
+    is saved as a playlist.
 
--   [[Datahub]{.underline}](https://datahub.berkeley.edu/) is the
-    > Berkeley JupyterHub.
+-   [Datahub](https://datahub.berkeley.edu/) is the
+    Berkeley JupyterHub.
 
--   [[Piazza]{.underline}](https://en.wikipedia.org/wiki/Piazza_(web_service))
-    > is a communication tool used to post questions to the class and
-    > instructors with the option of sharing with everyone or only
-    > instructors. Must be set-up for each course iteration with all
-    > students invited to use the course's thread.
+-   [Piazza](https://en.wikipedia.org/wiki/Piazza_(web_service))
+    is a communication tool used to post questions to the class and
+    instructors with the option of sharing with everyone or only
+    instructors. Must be set-up for each course iteration with all
+    students invited to use the course's thread.
 
--   [[Information on Data
-    > Stack]{.underline}](https://data.berkeley.edu/academics/resources/berkeley-data-stack)
-    > shows what Berkeley focuses on.
+-   [Information on Data Stack](https://data.berkeley.edu/academics/resources/berkeley-data-stack)
+    shows what Berkeley focuses on.
 
 Other Key Inputs
 
@@ -206,9 +194,7 @@ require networking and collaboration with other campus departments.
 Critical TA Professional Development and Training
 
 GSI training includes a full semester pedagogy 300-level course
-available in various departments and [[Professional Standards and Ethics
-Online
-Course]{.underline}](https://gsi.berkeley.edu/programs-services/ethics-course/).
+available in various departments and [Professional Standards and Ethics
+Online Course](https://gsi.berkeley.edu/programs-services/ethics-course/).
 
-[[Additional requirements for College of Letters and
-Sciences]{.underline}](https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0)
+[Additional requirements for College of Letters and Sciences](https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0)
