@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundations of Data Science Course &#8212; My sample book</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Domain Connector Courses" href="domain-connector-courses.html" />
+    <link rel="prev" title="NSF IUSE Introduction" href="intro.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">My sample book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   NSF IUSE Introduction
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Foundations of Data Science Course
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="domain-connector-courses.html">
+   Domain Connector Courses
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cyberinfrastructure.html">
+   Cyberinfrastructure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter-notebook-development-team.html">
+   Jupyter Notebook Development Team
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-peer-consulting.html">
+   Data Peer Consulting
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="data-scholars-program.html">
+   Data Scholars Program
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2 collapsible-parent">
+    <a class="reference internal" href="data-scholars-discovery-projects-seminar.html">
+     Data Scholars Discovery Projects Seminar
+    </a>
+    <ul class="collapse-ul">
+     <li class="toctree-l3">
+      <a class="reference internal" href="data-science-discovery-projects.html">
+       Data Science Discovery Projects
+      </a>
+     </li>
+    </ul>
+    <i class="fas fa-chevron-down">
+    </i>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-foundations-seminar.html">
+     Data Scholars Foundations Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-pathways-seminar.html">
+     Data Scholars Pathways Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-science-modules.html">
+     Data Science Modules
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="undergraduate-student-instructors.html">
+   Undergraduate Student Instructors
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/foundations-of-data-science-course.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ffoundations-of-data-science-course.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="foundations-of-data-science-course">
+<h1>Foundations of Data Science Course<a class="headerlink" href="#foundations-of-data-science-course" title="Permalink to this headline">¶</a></h1>
+<p>Overview</p>
+<p>Foundations of Data Science (Data 8) is an introductory data science
+course that combines principles and skills in statistics, programming,
+inference, modeling, hypothesis testing, visualization, and exploration.
+It provides a foundation in the many fields encompassed within data
+science and gives students a practical introduction to the technical
+field. There may be several hundred students registered for Data 8
+during any given semester. Undergraduate student instructors are
+employed to lead class discussion sections as well as grading for large
+classes. These students also serve as peer instructors to lower-division
+undergraduates taking the course. The course should be taken
+concurrently with a connector course. Some students might also be
+eligible to join Data Scholars if they are from marginalized groups.</p>
+<p>Target Audience</p>
+<p>First-year students interested in data science, undergraduates with no
+prior experience with data science, python, or advanced math and
+statistics, and students who want to explore STEM careers take the
+Foundations Course for an introduction to the process of analyzing data.</p>
+<p>Goals</p>
+<p>This course introduces students to programming so that they can
+comfortably carry out computational data science techniques. Ethical
+implications and biases are heavily addressed while introducing machine
+learning, using real-world examples in lectures, labs, and homework.</p>
+<p>Linking domain knowledge to data science as students learn coding and
+statistics is a key goal of the course. Students receive support from
+upper-classmen, near-peers who have roles as Undergraduate Student
+Instructors.</p>
+<p>Developing science capital and identity involves introducing data
+science without prerequisite courses in advanced mathematics,
+statistics, or computer science.</p>
+<p>The Foundations Course provides a personal experience for over 1,500
+students each semester. To achieve this feat, the Foundations Course has
+forty-five teaching assistants (TAs),approximately six of whom are Head
+TAs who organize the system of teaching assistant support. Additionally,
+150 academic interns …</p>
+<p>As the slide below describes, tasks such as grading, staff meetings, and
+prep hours allow the instructional team to collaborate and teach the
+Foundations Coursethrough a weekly schedule across the semester.</p>
+<p><img alt="A picture containing timeline Description automaticallygenerated" src="_images/image22.png" /></p>
+<p>Key Pedagogical or Curricular Strategies</p>
+<p>At its core, the course lowers the level of abstraction by using
+domain-related questions while teaching Python coding and statistical
+methods. Near-peer teaching takes place by undergraduate student
+instructors who have taken the course before and have some level of
+pedagogical training. A built-in grader for immediate feedback
+facilitates active learning while the student is completing assignments.</p>
+<p>While the Foundations Course acknowledges the broader field, this course
+is designed to focus only on the computation skills that students need
+in order to work with data. For example, the necessary prerequisites for
+a Computer Science Course 1 include “Read and write compound expressions
+that involve variables and multiple data types.” The Foundations Course
+focuses on core strategies to prepare students for more complex work,
+such as working with methods to visualize the data with tables and
+arrays, as well as learning the differences between names and strings
+while avoiding unnecessary language syntax and semantics.</p>
+<p>The goal is to write code that can do something interesting without
+learning about all kinds of compound expressions. The Foundations Course
+does teach the importance of syntax and programming languages in writing
+down computational simulations.</p>
+<ul class="simple">
+<li><p>Visualize then qualify.</p></li>
+<li><p>Teach with real data whenever possible.</p></li>
+</ul>
+<p>Key Diversity and Inclusion Practices and Strategies</p>
+<p>The Foundations Course is designed to be inclusive of all students.
+Inclusion is built through the belief that all students’ lives and
+educational experiences can be enriched through data literacy.</p>
+<p>This course—and all of the other UCB Data Science Educational Program
+courses—are built with open-access infrastructure and tools.</p>
+<p>Jupyter Notebooks are easily accessible for students with little data or
+statistical knowledge. This provides students with both a low barrier to
+entry and the basis to develop a positive data science identity.</p>
+<p>Links to Key Cyber Resources and their Implementation</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://data8.org/">The Foundations Course website</a>
+has all previous iterations of the course here.</p></li>
+<li><p><a class="reference external" href="http://data8.org/zero-to-data-8/intro">The Jupyter Book from Zero to Data 8</a> goes over
+the pedagogical methods utilized in Data 8 and discusses how to
+begin teaching an introductory data science course at your
+university.</p></li>
+<li><p><a class="reference external" href="https://github.com/data-8/materials-sp20">The Public Repository</a>
+contains the Juptyer notebooks for the Homeworks, Labs, and
+Lectures. These materials are what the students work on through
+the course of Data 8.</p></li>
+<li><p>The course textbook, <a class="reference external" href="https://www.inferentialthinking.com/chapters/intro">Computational and Inferential Thinking: The Foundations of Data Science</a>,
+is the textbook for Data 8 at UC Berkeley. The book is a free
+online textbook that includes interactive Jupyter notebooks and
+public data sets for all examples. The textbook source is
+maintained as an open-source project under the CC BY-NC-ND 4.0
+License.</p></li>
+<li><p><a class="reference external" href="https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science">Data 8x</a>
+is a Massive Open Online Course (MOOC) of Data 8 offered on edX
+that increases access for Data 8 to students around the world. The
+course contains recorded pedagogy videos by Professor John Denero,
+Ani Adhikari, and David Wagner.</p></li>
+<li><p>Berkeley-centric guides for the Foundations Course teaching
+assistants and tutors: <a class="reference external" href="https://docs.google.com/document/d/12Omx9ReOavGjZb8Rk71BQzHK3MZ6EBE9YMpph0qP6Rg/edit">GSI handbook</a> and
+<a class="reference external" href="https://docs.google.com/document/d/1ja7gkIa5ueHaoFJSdcRQamcTTi_T_t3O9ZHSZQ_KUvI/edit">Tutor handbook</a></p></li>
+<li><p><a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">UC Berkeley JupyterHubs guide</a>
+contains information about all of the JupyterHubs at UC Berkeley
+and is a good reference for how our teams coordinate technical
+infrastructure across classes and resources.</p></li>
+<li><p><a class="reference external" href="http://data8.org/sp20/">Spring 2020 materials</a>
+include links to slides, lecture videos, and Jupyter notebooks for
+each demo and lab assignment, and readings.</p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y">YouTube collection of Spring 2016 lectures</a>]
+were hosted by the <a class="reference external" href="https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/featured">Webcast Department</a>.
+Recordings of more recent iterations are available but only 2016
+is saved as a playlist.</p></li>
+<li><p><a class="reference external" href="https://datahub.berkeley.edu/">Datahub</a> is the
+Berkeley JupyterHub.</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Piazza_(web_service)">Piazza</a>
+is a communication tool used to post questions to the class and
+instructors with the option of sharing with everyone or only
+instructors. Must be set-up for each course iteration with all
+students invited to use the course’s thread.</p></li>
+<li><p><a class="reference external" href="https://data.berkeley.edu/academics/resources/berkeley-data-stack">Information on Data Stack</a>
+shows what Berkeley focuses on.</p></li>
+</ul>
+<p>Other Key Inputs</p>
+<p>Smaller lab sections for two hours with Undergraduate Instructors and
+Instructor Office Hours are available. They require signing up but are
+available every day of the week. The frequency of office hours and the
+lab requirements are meant to offset the large lecture setting.</p>
+<p>Those in Data 8 are encouraged to take Connector courses during the same
+semester in order to leverage the amount of time spent practicing coding
+and learning domain-specific theory. Students from marginalized groups
+can also join Data Scholars concurrently to enhance their exposure to
+data science mentors and career paths.</p>
+<p>Narrative regarding links between Component Goals, Pedagogical
+Strategies, and Central Elements of the Program</p>
+<p><em>Foundations of Data Science</em> combines three perspectives: inferential
+thinking, computational thinking, and real-world relevance. Given data
+arising from some real-world phenomenon, how does one analyze that data
+so as to understand that phenomenon? The course teaches critical
+concepts and skills in computer programming and statistical inference,
+in conjunction with hands-on analysis of real-world datasets, including
+economic data, document collections, geographical data, and social
+networks. It delves into social issues surrounding data analysis, such
+as privacy and design.</p>
+<p>Best Practices for Success/Variation Across Institutions</p>
+<p>Institutions using different course management systems may need to
+adjust some of the cyberinfrastructures. The digital infrastructure of
+the course must be set up and tested before the course begins. Setting
+up a Jupyterhub can vary depending on the planned course size.
+Additionally, having an automatic grader is essential for large class
+sizes.</p>
+<p>Two components of the program that require additional resources for
+near-peer teaching are Data Peers consulting and Undergraduate Student
+Instructors. The creation of Connector Courses and DS Modules will also
+require networking and collaboration with other campus departments.</p>
+<p>Critical TA Professional Development and Training</p>
+<p>GSI training includes a full semester pedagogy 300-level course
+available in various departments and <a class="reference external" href="https://gsi.berkeley.edu/programs-services/ethics-course/">Professional Standards and Ethics
+Online Course</a>.</p>
+<p><a class="reference external" href="https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0">Additional requirements for College of Letters and Sciences</a></p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">NSF IUSE Introduction</a>
+    <a class='right-next' id="next-link" href="domain-connector-courses.html" title="next page">Domain Connector Courses</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book Community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

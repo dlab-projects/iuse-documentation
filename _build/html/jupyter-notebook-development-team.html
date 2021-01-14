@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jupyter Notebook Development Team &#8212; My sample book</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data Peer Consulting" href="data-peer-consulting.html" />
+    <link rel="prev" title="Cyberinfrastructure" href="cyberinfrastructure.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">My sample book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   NSF IUSE Introduction
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="foundations-of-data-science-course.html">
+   Foundations of Data Science Course
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="domain-connector-courses.html">
+   Domain Connector Courses
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cyberinfrastructure.html">
+   Cyberinfrastructure
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Jupyter Notebook Development Team
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-peer-consulting.html">
+   Data Peer Consulting
+  </a>
+ </li>
+ <li class="toctree-l1 collapsible-parent">
+  <a class="reference internal" href="data-scholars-program.html">
+   Data Scholars Program
+  </a>
+  <ul class="collapse-ul">
+   <li class="toctree-l2 collapsible-parent">
+    <a class="reference internal" href="data-scholars-discovery-projects-seminar.html">
+     Data Scholars Discovery Projects Seminar
+    </a>
+    <ul class="collapse-ul">
+     <li class="toctree-l3">
+      <a class="reference internal" href="data-science-discovery-projects.html">
+       Data Science Discovery Projects
+      </a>
+     </li>
+    </ul>
+    <i class="fas fa-chevron-down">
+    </i>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-foundations-seminar.html">
+     Data Scholars Foundations Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-pathways-seminar.html">
+     Data Scholars Pathways Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-science-modules.html">
+     Data Science Modules
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="undergraduate-student-instructors.html">
+   Undergraduate Student Instructors
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/jupyter-notebook-development-team.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fjupyter-notebook-development-team.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="jupyter-notebook-development-team">
+<h1>Jupyter Notebook Development Team<a class="headerlink" href="#jupyter-notebook-development-team" title="Permalink to this headline">¶</a></h1>
+<p>Overview</p>
+<p>The Jupyter Notebook Development Teams allow undergraduate students to
+apply what they learn in data science courses in the production of
+teaching resources. Each team has a student Team Lead who is an
+experienced Jupyter Notebook developer. The teams collaborate with
+instructors from across campus to build and deploy the Jupyter Notebook
+in Applied Instructional Modules. Instructors teach DS Modules in one or
+multiple sessions of a course.</p>
+<p>Target Audience</p>
+<p>The Jupyter Notebook Development Team program assembles undergraduate
+student teams through an open application process. Students with a mix
+of data science skills, pedagogy knowledge, and a passion for a domain
+area are well-suited for the program. All students are part of an
+apprenticeship model of near-peer learning in their teams. There is a
+two-tier system of participation. Students begin by volunteering or
+working for credits and then can move on to the second tier. Students
+that have completed at least one semester as a team member are eligible
+to become a Jupyter Development Team Lead. These students receive pay
+for overseeing the development of the Jupyter Notebook with their team.</p>
+<p>Goals</p>
+<p>Notebook teams develop essential course materials. Their process and
+production with faculty result in real-time open data science
+educational content. This content provides added value to existing
+courses. With this added value entering the campus community, moreover,
+the outreach and conversations about data science and its programs at UC
+Berkeley increase their reach institutionally.</p>
+<p>The DS Modules Program Coordinator for the UC Berkeley Division of
+Computing, Data Science, and Society oversees the Development Teams.
+Before building the DS Module, the DS Module Program Coordinator writes
+a contract that includes the expectations of the faculty member and the
+responsibilities of the development team. There are usually two types of
+faculty that are entering the process.</p>
+<ul>
+<li><p>The first group of faculty are generally interested but do not know</p>
+<blockquote>
+<div><p>anything about data science. For these faculty, the DS Modules
+Program Coordinator will work with them and the team of students
+to find and decide on an appropriate data set and plan how this
+will best fit into the course they are teaching. The development
+team can assist in teaching the material in the lecture, sections,
+or both.</p>
+</div></blockquote>
+</li>
+<li><p>The second group is faculty who are very familiar with data science</p>
+<blockquote>
+<div><p>and quickly move through the process. These faculty take on more
+of the planning. They decide how the DS Module can function and
+the deployment in the course.</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Once the faculty signs the contract that includes the guidelines for the
+course, the team of students will begin to work through the development
+of the DS Module together.</p>
+<p>Pedagogical and Curricular Strategies</p>
+<p>deleted.</p>
+<p>Key Diversity and Inclusion Practices and Strategies</p>
+<p>The Division’s student teams recruit from disciplines all across campus
+to give undergraduates opportunities to lead, form connections, and
+shape the Berkeley data science community. Teams take on projects in the
+curriculum, internal operations, analytics, and more. Team structure
+changes semester to semester based on where students see opportunities
+for the Division to grow. A holistic, codified application review
+process helps teams prioritize potential members with a passion for the
+field and a belief in a growth mindset in relation to technical skills
+and experience.</p>
+<p>Links to Key Documents</p>
+<p>The students use <a class="reference external" href="http://jupyter.org">[JupyterHub]{.underline}</a> to store
+their work on DS Modules and may use
+<a class="reference external" href="https://slack.com/">[Slack]{.underline}</a> to communicate with one
+another about meeting notes. The completed DS Module materials storage
+is on <a class="reference external" href="https://github.com/ds-modules">[GitHub]{.underline}</a>.</p>
+<p>Other vital documentation to keep in mind includes the interview
+questions, onboarding agreement, orientation, and the contract template.</p>
+<ul>
+<li><p>[[Interview</p>
+<blockquote>
+<div><p>Questions]{.underline}](https://drive.google.com/file/d/15drDMD0IX_Ig_T-kwSlUgW0SL6ugdmYw/view?usp=sharing)</p>
+</div></blockquote>
+</li>
+<li><p>[[Applied Instructional DS Module: Undergraduate Curriculum</p>
+<blockquote>
+<div><p>Developer
+Agreement](https://forms.gle/mwxDenAGHksCU1jM7)]{.underline}</p>
+</div></blockquote>
+</li>
+<li><p>[[Onboarding</p>
+<blockquote>
+<div><p>Slides]{.underline}](https://drive.google.com/file/d/1RCiqK9JqnHYlt6YwvgPz53aZ-GaFIADY/view?usp=sharing)</p>
+</div></blockquote>
+</li>
+<li><p>[[Contract</p>
+<blockquote>
+<div><p>Template]{.underline}](https://drive.google.com/file/d/17KLcms6XwRlarlUWRfnMG5qMCgWv1ie4/view?usp=sharing)</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Program Description</p>
+<p>Applied content in data science is made available by the work of the
+Jupyter Notebook Development Teams. They work in small groups on
+JupyterHub to stay thoughtfully involved in the ongoing process of
+applied data science lessons for entry level data scientists. Neer-peer
+learning allows students to move through apprenticeship level
+responsibilities as they move from novice (first tier) experiences into
+the lead of Team Lead (second tier). The student team members create
+course content gaining a sense of community, collaboration skills, and
+professionalization imbued in a growth mindset structure as they provide
+difficult content into accessible chunks.</p>
+<p>Example</p>
+<ul>
+<li><p>Stage 1 (Before the start of the semester): The contract is written</p>
+<blockquote>
+<div><p>and a meeting is held by the domain-specific DS Modules Program
+Coordinator, the Data Science Undergraduate Studies Curriculum
+Coordinator, any Graduate Student Instructors, and the faculty.</p>
+</div></blockquote>
+</li>
+<li><p>Stage 2 (First week of the semester): Domain-specific DS Modules</p>
+<blockquote>
+<div><p>Program Coordinator sends interest forms to the developers.</p>
+</div></blockquote>
+</li>
+<li><p>Stage 3 (Middle of the semester): The domain-specific DS Modules</p>
+<blockquote>
+<div><p>Program Coordinator connects the faculty and student team members
+over email. This email includes guidelines regarding the minimum
+necessary requirements of collaboration for the Jupyter Notebook
+development. The faculty is made aware that they should expect an
+email weekly, be prepared to review the first version, and review
+the final Jupyter Notebook.</p>
+</div></blockquote>
+</li>
+<li><p>Stage 4: The Team Lead becomes the coordinator of communication with</p>
+<blockquote>
+<div><p>the development team and the faculty. The Team Lead also stays in
+close contact with the domain-pecific DS Modules Program
+Coordinator.</p>
+</div></blockquote>
+<ul>
+<li><p>If the Development Team Lead does not receive a response to an</p>
+<blockquote>
+<div><p>initial and a follow-up reminder email, they will contact the
+Program Coordinator. The Program Coordinator will then reach
+out.</p>
+</div></blockquote>
+</li>
+<li><p>The faculty needs the capacity to be able to answer questions</p>
+<blockquote>
+<div><p>about the set deployment date of the domain-specific DS Module
+weeks in advance as the Jupyter Notebook is developed. Timely
+feedback and requests for changes need to be sent early so
+that students have the time in their course and schoolwork
+schedule to make the updates.</p>
+</div></blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<p>Additional Guidance for Implementation</p>
+<p>A critical factor in moving this program from university to university
+is the infrastructure. UC Berkeley builds a data science program that
+uses existing campus resources, a specific group of staff, and
+agreed-upon guidelines.</p>
+<ul>
+<li><p>There is an assumption that all students have access to a laptop or</p>
+<blockquote>
+<div><p>Chrome book because the library has a lending program.</p>
+</div></blockquote>
+</li>
+<li><p>The program currently uses the previously existing Data Hub and data</p>
+<blockquote>
+<div><p>puller.</p>
+</div></blockquote>
+</li>
+<li><p>UC Berkeley’s program has an instructional designer with some data</p>
+<blockquote>
+<div><p>science teaching experience. Having someone who devotes their full
+time and has a knowledge of teaching foundational data science is
+a crucial component of the Jupyter Notebook Development Teams.
+Many of the faculty would like to add data science content into
+their courses through DS Modules and work with the development
+teams but do not know how to begin. Having staff with this
+experience provides someone with background work in seeking and
+preparing an appropriate data set and assisting in the translation
+of the learning experience for the Development Team.</p>
+</div></blockquote>
+</li>
+<li><p>UC Berkeley’s program has specific foundational criteria for their</p>
+<blockquote>
+<div><p>data sets. It must be appropriate content licensed for their use
+and that students can work efficiently. Again, if the faculty does
+not have a background in data science, this might be an impossible
+feat independently.</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Recommendations</p>
+<p>Finally, one idea for the program that is not yet deployed is the
+creation and repetition of DS Module development using templates. A set
+of DS Module templates would include domain agnostic templates for
+linear regression, cleaning data, hypothesis testing, and other familiar
+topics. The Jupyter Notebook Development Teams would build specific DS
+Modules using the models. They may be more formulaic than the current
+process at UC Berkeley, but it could make the management of DS Module
+development simpler.</p>
+<p><img alt="Icon Description automaticallygenerated" src="_images/image12.png" />{width=”6.5in”
+height=”3.111111111111111in”}</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="cyberinfrastructure.html" title="previous page">Cyberinfrastructure</a>
+    <a class='right-next' id="next-link" href="data-peer-consulting.html" title="next page">Data Peer Consulting</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book Community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
