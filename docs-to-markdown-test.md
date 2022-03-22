@@ -1,11 +1,13 @@
+<!-- Output copied to clipboard! -->
+
 <!-----
 
 You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 19
+* ERRORs: 2
 * WARNINGs: 0
-* ALERTS: 40
+* ALERTS: 23
 
-Conversion time: 10.404 seconds.
+Conversion time: 6.034 seconds.
 
 
 Using this Markdown file:
@@ -18,23 +20,8 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β33
-* Tue Mar 22 2022 12:21:47 GMT-0700 (PDT)
+* Tue Mar 22 2022 12:26:16 GMT-0700 (PDT)
 * Source doc: NSF IUSE Documentation - Current Draft
-
-ERROR:
-undefined internal link to this URL: "#heading=h.20o45cvczk2l".link text: Foundations of Data Science Course
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.diiiyrvqeycg".link text: Data Scholars Foundation Seminar
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.42payybs41jj".link text: Data Scholars Discovery Research Projects
-?Did you generate a TOC?
-
 
 ERROR:
 undefined internal link to this URL: "#heading=h.2tc9wewtzu3".link text: Transfer Mentors
@@ -42,77 +29,7 @@ undefined internal link to this URL: "#heading=h.2tc9wewtzu3".link text: Transfe
 
 
 ERROR:
-undefined internal link to this URL: "#heading=h.58xk8brl4psj".link text: Jupyter Notebook Development Team
-?Did you generate a TOC?
-
-
-ERROR:
 undefined internal link to this URL: "#heading=h.zic6m11guqoz".link text: Data Peers Consulting program
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.ucnnpnnmdbyd".link text: Datahub Cyberinfrastructure
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.6kcmt3yjjmjg".link text: Autograding Cyberinfrastructure
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.20o45cvczk2l".link text: Foundations of Data Science Course
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.6zg4rvx64y4l".link text: Data Science Modules
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.z7fheor3fpne".link text: Domain Connector Courses
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.5g0bpoxcrut".link text: Data Science Discovery Projects
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.1xr14hmm9mz5".link text: Data Scholars Program
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.diiiyrvqeycg".link text: Data Scholars Foundations Seminar
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.u4mm07ywj0wz".link text: Data Scholars Pathways Seminar
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.42payybs41jj".link text: Data Scholars Discovery Research Projects
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.58xk8brl4psj".link text: Jupyter Notebook Development Team
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.eubxakwop3lp".link text: Data Peer Consulting
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.us2grcu1oe99".link text: Undergraduate Student Instructors
 ?Did you generate a TOC?
 
 * Tables are currently converted to HTML tables.
@@ -125,7 +42,7 @@ You have 14 H1 headings. You may want to use the "H1 -> H2" option to demote all
 ----->
 
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 19; WARNINGs: 1; ALERTS: 40.</p>
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 2; WARNINGs: 1; ALERTS: 23.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
@@ -151,69 +68,40 @@ You have 14 H1 headings. You may want to use the "H1 -> H2" option to demote all
 <a href="#gdcalert21">alert21</a>
 <a href="#gdcalert22">alert22</a>
 <a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-<a href="#gdcalert31">alert31</a>
-<a href="#gdcalert32">alert32</a>
-<a href="#gdcalert33">alert33</a>
-<a href="#gdcalert34">alert34</a>
-<a href="#gdcalert35">alert35</a>
-<a href="#gdcalert36">alert36</a>
-<a href="#gdcalert37">alert37</a>
-<a href="#gdcalert38">alert38</a>
-<a href="#gdcalert39">alert39</a>
-<a href="#gdcalert40">alert40</a>
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
 
-# Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education 
+[TOC]
+
+
+
+# Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education  {#institutional-resources-foundations-supports-consolidation-and-application-of-undergraduate-data-science-education}
 
 Unique to the University of California, Berkeley’s Data Science Education development has been our [DataHub Cyberinfrastructure](#bookmark=id.fxyvojhozv8z) and [Autograding Cyberinfrastructure](#bookmark=id.7y2w6jb0vj5v). The campus community enables full access to data science environments through any device capable of running a web browser connected to the internet. This alleviated the burden and inequity of requiring students to upgrade their personal computing devices to a minimum standard which would have been a barrier to widespread student participation.  The autograder is an essential component of any scalable computation-centered course that includes graded assignments. [Otter Grader](https://github.com/ucbds-infra/otter-grader) is used for autograding. 
 
-The Data Science Undergraduate Studies program at UC Berkeley is a matrix of courses and learning opportunities for students to be directly involved in Data Science both in and outside of classrooms.  UC Berkeley’s most notable Data Science development has been the creation of the [Data Science major](https://data.berkeley.edu/academics/data-science-undergraduate-studies/data-science-major) and [minor](https://data.berkeley.edu/academics/data-science-undergraduate-studies/data-science-minor) programs that welcomes a large number of students from diverse academic and personal backgrounds.  The 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Foundations of Data Science Course"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Foundations of Data Science Course](#heading=h.20o45cvczk2l), Data 8 serves as an initial access point for many students who are interested but might not have any prior experience. Students may initiate their Data Science experiences through this course or find their way to Data 8 from [Data Science Modules](#bookmark=id.iexpon2asusa), known as “Modules” that have been embedded into the curriculum of other domain area courses. The curricular experiences of students may then continue both through upper level Data Science courses and through [Domain Connector Courses](#bookmark=id.zd605bma5exj), or better known as just “Connector Courses” that integrate Data Science learning across the semester-long course.  The [Data Science Discovery Projects](#bookmark=id.8vo5c58qy13h) also offers students the opportunity for applied experience with partnering organizations on a semester-long project.
+The Data Science Undergraduate Studies program at UC Berkeley is a matrix of courses and learning opportunities for students to be directly involved in Data Science both in and outside of classrooms.  UC Berkeley’s most notable Data Science development has been the creation of the [Data Science major](https://data.berkeley.edu/academics/data-science-undergraduate-studies/data-science-major) and [minor](https://data.berkeley.edu/academics/data-science-undergraduate-studies/data-science-minor) programs that welcomes a large number of students from diverse academic and personal backgrounds.  The [Foundations of Data Science Course](#foundations-of-data-science-course), Data 8 serves as an initial access point for many students who are interested but might not have any prior experience. Students may initiate their Data Science experiences through this course or find their way to Data 8 from [Data Science Modules](#bookmark=id.iexpon2asusa), known as “Modules” that have been embedded into the curriculum of other domain area courses. The curricular experiences of students may then continue both through upper level Data Science courses and through [Domain Connector Courses](#bookmark=id.zd605bma5exj), or better known as just “Connector Courses” that integrate Data Science learning across the semester-long course.  The [Data Science Discovery Projects](#bookmark=id.8vo5c58qy13h) also offers students the opportunity for applied experience with partnering organizations on a semester-long project.
 
 Conscious of the differences in student experiences and backgrounds, programs continue to be developed that focus on uplifting and providing additional support to students from populations that are underrepresented in Data Science. 
 
-	The [Data Scholars Program](#bookmark=id.1ux00zqf5upx) accepts a cohort of students each semester for  participation in the program components: a foundations seminar, academic development, [discovery research](https://data.berkeley.edu/research/discovery-program-home), [career accelerator](https://data.berkeley.edu/careeraccelerator), and a speaker series. The 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Foundation Seminar"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Foundation Seminar](#heading=h.diiiyrvqeycg) is a course that provides additional structure and support as they are enrolled in the Foundations of Data Science Course.  The [Data Scholars Pathways Seminar](#bookmark=id.o7bxyb82125b) invites students to join in a series of talks from professionals in the field to learn more about career opportunities and development. The 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Discovery Research Projects"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Discovery Research Projects](#heading=h.42payybs41jj) partners with the existing Discovery Research Program to ensure Data Scholars are matched with appropriate research projects for a semester-long experience.
+	The [Data Scholars Program](#bookmark=id.1ux00zqf5upx) accepts a cohort of students each semester for  participation in the program components: a foundations seminar, academic development, [discovery research](https://data.berkeley.edu/research/discovery-program-home), [career accelerator](https://data.berkeley.edu/careeraccelerator), and a speaker series. The [Data Scholars Foundation Seminar](#data-scholars-foundations-seminar) is a course that provides additional structure and support as they are enrolled in the Foundations of Data Science Course.  The [Data Scholars Pathways Seminar](#bookmark=id.o7bxyb82125b) invites students to join in a series of talks from professionals in the field to learn more about career opportunities and development. The [Data Scholars Discovery Research Projects](#data-scholars-discovery-projects-seminar) partners with the existing Discovery Research Program to ensure Data Scholars are matched with appropriate research projects for a semester-long experience.
 
 	
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Transfer Mentors"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Transfer Mentors"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 [Transfer Mentors](#heading=h.2tc9wewtzu3) is a newly established program (2020) that is continuing to develop and build capacity for entering transfer students interested in Data Science through direct support by current more established transfer students.
 
 Students looking for additional hands-on learning experiences in courses and with peers might become involved in a number of employment opportunities.
 
 
-    Students can assist in the development of the course content for Modules as part of a [Modules Jupyter Notebook Developers](https://data.berkeley.edu/modules-jupyter-notebook-developer) or the 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Jupyter Notebook Development Team"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Jupyter Notebook Development Team](#heading=h.58xk8brl4psj). 
+    Students can assist in the development of the course content for Modules as part of a [Modules Jupyter Notebook Developers](https://data.berkeley.edu/modules-jupyter-notebook-developer) or the [Jupyter Notebook Development Team](#jupyter-notebook-development-team). 
 
 
     They might assist peers through direct 1:1 conversations through the 
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Peers Consulting program"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Peers Consulting program"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 [Data Peers Consulting program](#heading=h.zic6m11guqoz).  
 
@@ -223,95 +111,43 @@ Students looking for additional hands-on learning experiences in courses and wit
 
 ---
 
+[Datahub Cyberinfrastructure](#datahub-cyberinfrastructure)
+
+[Autograding Cyberinfrastructure](#autograding-cyberinfrastructure)
+
+[Foundations of Data Science Course](#foundations-of-data-science-course)
+
+[Data Science Modules](#data-science-modules)
+
+[Domain Connector Courses](#domain-connector-courses)
+
+[Data Science Discovery Projects](#data-science-discovery-projects)
+
+[Data Scholars Program](#data-scholars-program)
+
+[Data Scholars Foundations Seminar](#data-scholars-foundations-seminar)
+
+[Data Scholars Pathways Seminar](#data-scholars-pathways-seminar)
+
+[Data Scholars Discovery Research Projects](#data-scholars-discovery-projects-seminar)
+
+[Jupyter Notebook Development Team](#jupyter-notebook-development-team)
+
+[Data Peer Consulting](#data-peer-consulting)
+
+[Undergraduate Student Instructors](#undergraduate-student-instructors)
 
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Datahub Cyberinfrastructure"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Datahub Cyberinfrastructure](#heading=h.ucnnpnnmdbyd)
+# Datahub Cyberinfrastructure {#datahub-cyberinfrastructure}
 
 
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Autograding Cyberinfrastructure"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Autograding Cyberinfrastructure](#heading=h.6kcmt3yjjmjg)
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Foundations of Data Science Course"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Foundations of Data Science Course](#heading=h.20o45cvczk2l)
-
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Science Modules"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Science Modules](#heading=h.6zg4rvx64y4l)
-
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Domain Connector Courses"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Domain Connector Courses](#heading=h.z7fheor3fpne)
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Science Discovery Projects"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Science Discovery Projects](#heading=h.5g0bpoxcrut)
-
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Program"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Program](#heading=h.1xr14hmm9mz5)
-
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Foundations Seminar"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Foundations Seminar](#heading=h.diiiyrvqeycg)
-
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Pathways Seminar"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Pathways Seminar](#heading=h.u4mm07ywj0wz)
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Scholars Discovery Research Projects"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Scholars Discovery Research Projects](#heading=h.42payybs41jj)
-
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Jupyter Notebook Development Team"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Jupyter Notebook Development Team](#heading=h.58xk8brl4psj)
-
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Data Peer Consulting"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Data Peer Consulting](#heading=h.eubxakwop3lp)
-
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Undergraduate Student Instructors"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[Undergraduate Student Instructors](#heading=h.us2grcu1oe99)
-
-
-# Datahub Cyberinfrastructure
-
-
-## Overview
+## Overview {#overview}
 
 The Datahub is the core infrastructure that serves live computational environments to all students for Data 8, Modules, and other Data Science courses. Students can work entirely from the DataHub running in the cloud. It is available to everyone on campus— not limited just to students enrolled in courses— accessible via the standard campus Single Sign-On (SSO) through &lt;[https://datahub.berkeley.edu/](https://datahub.berkeley.edu/)>. It is built entirely on open source software that runs on commercial cloud platforms and/or bare metal infrastructure managed by campus IT staff and student infrastructure teams. The 3 key open source components are JupyterHub, Kubernetes, and Docker integrated together as described in [Zero to Jupyterhub with Kubernetes](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
 
 
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image1.png "image_tooltip")
@@ -321,7 +157,7 @@ The Datahub is the core infrastructure that serves live computational environmen
 
 
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image2.jpg "image_tooltip")
@@ -330,7 +166,7 @@ The Datahub is the core infrastructure that serves live computational environmen
 **JupyterHub infrastructure diagram**
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 There are 3 key target audiences at the campus-level: students, instructors, and _anyone_ on campus. Initially the infrastructure was created to support the instructors teaching Data 8 to 60 students in Fall 2015, with the aim from the outset of scaling Data 8 to a much larger size (1350 students as of Spring 2020), as well as to other courses and use cases campus-wide beyond Data 8 itself. Designing for scale from the start also allowed going beyond the campus audience to a global audience with [75,000 students enrolling in Data 8X on the edX platform](https://data.berkeley.edu/news/data-8-thrives-and-campus#main-inner:~:text=Data%208%20Extends%20Beyond%20Berkeley) in Spring 2018.
 
@@ -341,7 +177,7 @@ For students this enabled full access to data science environments through any d
 For anyone on campus with an interest in Data Science, the Datahub infrastructure was made available to everyone via standard campus Single Sign-On (SSO) credentials. This lowered the barrier for anyone curious to explore beyond the official course offerings without special access or permissions. Instructors could try out the platform by themselves; students could use the platform outside of class for their own projects or [directed group study](https://classes.berkeley.edu/content/2019-Fall-INFO-298-002-GRP-002); researchers and scholars could experiment with how to use it in their research workflows— which spawned a Datahub variation called [BinderHub](https://jupyter.org/binder) to share reproducible interactive computing environments from code repositories for other use cases such as workshops, research collaborations, and reproducible scientific analysis. The creation of Binderhub for research on publicly available clouds to anyone in the world via &lt;[https://mybinder.org/](https://mybinder.org/)> made it easy to share educational materials outside UC Berkeley to allow anyone at other institutions to interact with [open data science textbooks](https://www.inferentialthinking.com/chapters/08/Functions_and_Tables.html).
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
@@ -370,20 +206,20 @@ For anyone on campus with an interest in Data Science, the Datahub infrastructur
 
 
 
-# Autograding Cyberinfrastructure
+# Autograding Cyberinfrastructure {#autograding-cyberinfrastructure}
 
 
-## Overview
+## Overview {#overview}
 
 Autograding allows instructors to easily and efficiently grade student assignments, and also lets students have a way to check their own progress and ensure they are headed in the right direction on the way to completing an assignment. It is an essential component of any scalable computation-centered course that includes graded assignments. There are several different options for autograding, several of which were developed by faculty and students at UC Berkeley. Choosing an autograder depends on the scale and particular requirements of a particular course.
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 There are two main audiences: Instructors and teaching assistants who need to grade student assignments, and the students themselves who want to check their progress on an assignment and/or who are required to submit their assignments for grading.
 
 
-## Goals
+## Goals {#goals}
 
 Enable instructors to grade student assignments at scale.
 
@@ -396,7 +232,7 @@ Enable students to run public checks on their own machines.
 Enable grading on a variety of computational formats including Jupyter notebooks, Python scripts, R Jupyter Notebooks, R scripts, and Rmd documents.
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
@@ -413,20 +249,20 @@ Enable grading on a variety of computational formats including Jupyter notebooks
     * [https://github.com/ucbds-infra/nbgitpuller](https://github.com/ucbds-infra/nbgitpuller)
 
 
-# Foundations of Data Science Course 
+# Foundations of Data Science Course  {#foundations-of-data-science-course}
 
 
-## Overview
+## Overview {#overview}
 
 [Foundations of Data Science (Data 8)](http://data8.org/) is an introductory data science course that combines principles and skills in statistics, programming, inference, modeling, hypothesis testing, visualization, and exploration. It provides a foundation in the many fields encompassed within data science and gives students a practical introduction to the technical field. There may be 1200-1500 students registered for Data 8 during any given semester. [Undergraduate Student Instructors](#bookmark=kix.aa37l8ay2tsy) are employed to lead class discussion sections as well as grading for large classes. These students serve as peer instructors to lower-division undergraduates taking the course. The course may be taken concurrently with a [Domain Connector Course](#bookmark=id.zd605bma5exj). Some students might also be eligible to join the [Data Scholars Program](#bookmark=kix.ucvvsy449ryx).
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 First-year students interested in data science, undergraduates with no prior experience with data science, python, or advanced math and statistics, and students who want to explore STEM careers take the Foundations Course for an introduction to the process of analyzing data.  
 
 
-## Goals
+## Goals {#goals}
 
  This course introduces students to programming and statistics so that they can comfortably carry out computational data science techniques. Ethical implications and biases are heavily addressed while introducing machine learning, using real-world examples in lectures, labs, and homework. 
 
@@ -449,7 +285,7 @@ Tutors
 (Lab Assistants) Academic Interns 
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 At its core, the course lowers the level of abstraction by using domain-related questions while teaching Python coding and statistical methods. Near-peer teaching takes place by undergraduate student instructors who have taken the course before and have some level of pedagogical training. A built-in grader for immediate feedback facilitates active learning while the student is completing assignments. 
 
@@ -463,7 +299,7 @@ The goal is to write code that can do something interesting without learning abo
 * Teach with real data whenever possible.  
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The Foundations Course is designed to be inclusive of all students.  Inclusion is built through the belief that all students’ lives and educational experiences can be enriched through data literacy.
 
@@ -472,7 +308,7 @@ This course—and all of the other UCB Data Science Educational Program courses�
 Jupyter Notebooks are easily accessible for students with little data or statistical knowledge. This provides students with both a low barrier to entry and the basis to develop a positive data science identity.
 
 
-## Links to Key Cyber Resources and their Implementation 
+## Links to Key Cyber Resources and their Implementation  {#links-to-key-cyber-resources-and-their-implementation}
 
 
 
@@ -490,26 +326,26 @@ Jupyter Notebooks are easily accessible for students with little data or statist
 * [Information on Data Stack](https://data.berkeley.edu/academics/resources/berkeley-data-stack) shows what Berkeley focuses on.
 
 
-## Other Key Inputs
+## Other Key Inputs {#other-key-inputs}
 
 Smaller lab sections for two hours with Undergraduate Instructors and Instructor Office Hours are available. They require signing up but are available every day of the week. The frequency of office hours and the lab requirements are meant to offset the large lecture setting.
 
 Those in Data 8 are encouraged to take Connector courses during the same semester in order to leverage the amount of time spent practicing coding and learning domain-specific theory. Students from marginalized groups can also join Data Scholars concurrently to enhance their exposure to data science mentors and career paths. 
 
 
-## Narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program 
+## Narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program  {#narrative-regarding-links-between-component-goals-pedagogical-strategies-and-central-elements-of-the-program}
 
 _Foundations of Data Science_ combines three perspectives: inferential thinking, computational thinking, and real-world relevance. Given data arising from some real-world phenomenon, how does one analyze that data so as to understand that phenomenon? The course teaches critical concepts and skills in computer programming and statistical inference, in conjunction with hands-on analysis of real-world datasets, including economic data, document collections, geographical data, and social networks. It delves into social issues surrounding data analysis, such as privacy and design.
 
 
-## Best Practices for Success/Variation Across Institutions
+## Best Practices for Success/Variation Across Institutions {#best-practices-for-success-variation-across-institutions}
 
 Institutions using different course management systems may need to adjust some of the cyberinfrastructures. The digital infrastructure of the course must be set up and tested before the course begins. Setting up a Jupyterhub can vary depending on the planned course size. Additionally, having an automatic grader is essential for large class sizes.
 
 Two components of the program that require additional resources for near-peer teaching are Data Peers consulting and Undergraduate Student Instructors. The creation of Connector Courses and DS Modules will also require networking and collaboration with other campus departments. 
 
 
-## Critical TA Professional Development and Training
+## Critical TA Professional Development and Training {#critical-ta-professional-development-and-training}
 
 GSI training includes a full semester pedagogy 300-level course available in various departments and  [Professional Standards and Ethics Online Course](https://gsi.berkeley.edu/programs-services/ethics-course/).
 
@@ -520,17 +356,17 @@ GSI training includes a full semester pedagogy 300-level course available in var
 
 
 
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image3.png "image_tooltip")
 
 
 
-# Data Science Modules 
+# Data Science Modules  {#data-science-modules}
 
 
-## Overview
+## Overview {#overview}
 
 Data Science Modules (“DS Modules”) are short explorations into data science that give students the opportunity to work hands-on with a data set relevant to their course and receive some instruction on the principles of data analysis, statistics, and computing. DS Modules are designed and taught in an existing course from any discipline or field with the help and collaboration of the Data Science Modules Development Team and the course instructor. These DS Modules are often presented as interactive lectures or labs that allow students to learn from data sets that pertain to their course material. 
 
@@ -541,7 +377,7 @@ The DS Modules Development Team collaborates with instructors across different d
 DS Modules are an excellent way for students to have a smooth and supported introduction to computing, statistics, and vital tools used in data science, which are becoming increasingly relevant across academic disciplines. They empower students to do research and pose their own questions using data, as well as enable instructors to apply new lenses to their area of expertise. By the end of a DS Module, students will learn to process data in real-time, write and execute code, make visualizations, develop analytical skills, and learn to apply these skills to their relevant field or course work. 
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 DS Modules vary widely and are customized based on each instructor’s objectives and course content. A DS Module might simply be one or two lectures on how to interpret data and statistics in news media reports or a multiple-session research workshop for students working on a data-centered project. Students in DS Modules learn to use the [Python](https://www.python.org/) programming language and complete assignments in [Jupyter Notebooks](http://jupyter.org/), both industry-standard data science tools used in the [Data Science Undergraduate Studies](https://data.berkeley.edu/academics/undergraduate-programs). Instructors use these tools to share data with students, assign homework and write instructions in the cloud-based notebook, and then ask for students’ interpretation of the results, all within the same environment.
 
@@ -572,7 +408,7 @@ Program representatives speak at the [Academic Innovations Studio](https://ais.b
 The [Data Science Undergraduate Studies](https://data.berkeley.edu/) is continuously looking for faculty interested in developing a DS Module for their course. They often give presentations to departments, groups of faculty, or hold one-on-one meetings with instructors to give them an idea of how implementing a DS Module would be beneficial for their students.  
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The focus of conducting DS Modules is to (a) give students exposure to data science through cross-disciplinary instruction and (b) offer data science tools to students who may otherwise never have the opportunity. DS Modules have been taught to everyone from first-year students with no coding or statistics experience to seniors taking upper-division econometrics. The [Data Science Undergraduate Studies](https://data.berkeley.edu/) has developed Data Science Modules for courses in:
 
@@ -600,7 +436,7 @@ Given that all UC Berkeley undergraduates have an American Cultures graduation r
 For example, a DS Module was developed for Ethnic Studies 21, a class  on mass incarceration, by a student who had taken the course in a previous semester. This DS Module explored prison overcrowding and realignment data. In a full cycle of its development and implementation, this studentled the DS Module in the class for its initial deployment. 
 
 
-## Links to Key Cyber Resources
+## Links to Key Cyber Resources {#links-to-key-cyber-resources}
 
 
 
@@ -623,7 +459,7 @@ Examples
 
 Course listing on UCB DSEP [GitHub](https://ds-modules.github.io/DS-Modules/)
 
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image4.png "image_tooltip")
@@ -633,7 +469,7 @@ Course GitHub [website](https://github.com/ds-modules/PSYCH-167AC)
 
 
 
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image5.png "image_tooltip")
@@ -641,7 +477,7 @@ Course GitHub [website](https://github.com/ds-modules/PSYCH-167AC)
 
 Course DataHub [website](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)
 
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image6.png "image_tooltip")
@@ -651,7 +487,7 @@ Course Binder [website](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master
 
 
 
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image7.png "image_tooltip")
@@ -662,28 +498,28 @@ Course Binder [website](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master
 
 
 
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image8.png "image_tooltip")
 
 
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image9.png "image_tooltip")
 
 
 
-# Domain Connector Courses
+# Domain Connector Courses {#domain-connector-courses}
 
 
-## Overview
+## Overview {#overview}
 
 The Domain Connector Courses program weaves together core concepts and approaches from Data 8 with complementary ideas or areas. These courses allow students to use analytic tools from the _[Foundations Course](http://data8.org/)_ and apply them within diverse disciplinary contexts. Students will gain additional experience, broader insights, and deeper theoretical or computational foundations. Courses include a combination of data science and domain-specific material, and are developed for and with departments across campus. The Connector Courses program are 2-unit semester-long courses within a domain area.
 
 
-## Program Description
+## Program Description {#program-description}
 
 The Connector Courses bring together domain-specific instruction and outreach to faculty and instructors interested in doing the curriculum development, along with support from student developers and open-access materials, that benefit both the students and the repository of courses. 
 
@@ -697,17 +533,17 @@ The Connector Courses program has two facets:
 * The undergraduate data science student experience in applying data science
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The Domain Connector Courses are an opportunity for students looking to explore a specific domain area (in a two-unit seminar) that is entry-level by design, specifically meant _not_ to be overwhelming. These courses are intended to be taken in the same semester as the Foundations Course, although many students also take them after they have taken the Foundations Course. 
 
 
-## Goals
+## Goals {#goals}
 
 A Connector Course allows students to weave together core concepts and strategies from the Foundations Course with complementary class topics. Along the way, students gain additional experience, broader insights, and deeper theoretical or computational foundations. Instructors from across campus teach Domain Connector Courses. Data 8 and Connectors complement each other and often use similar materials, tools, and course infrastructure (e.g., DataHub, Piazza, Jupyter Notebooks).
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 Connector Courses are based on active learning as students navigate data science methodologies in class. Active learning is a method of learning in which students are actively or experientially involved in the learning process and where there are different levels of active learning, depending on student involvement ([Bonwell & Eison 1991](https://en.wikipedia.org/wiki/Active_learning#CITEREFBonwellEison1991)). The students are able to develop ways to evaluate trends in the data examples or those they have found pertaining to a specific field or sector.
 
@@ -716,7 +552,7 @@ Because the [Undergraduate Student Instructors (UGSIs)](https://eecs.berkeley.ed
 The courses use open-source [Jupyter Notebooks](https://jupyter.org/) with materials stored and made accessible on GitHub.  A Connector Course’s GitHub site includes materials accessible to the students as well as private, locked materials, such as homework solutions and exam answer keys, that are only accessible to the faculty and CAs.  
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The diverse courses allow for students across general interests to take classes together. For example, a psychology student could take a psychology-specific Connector Course and a data science student could be interested in the application in psychology.  
 
@@ -729,7 +565,7 @@ The policy is that DSUS staff will recruit and assign one CA per 30 seats in the
 Connector Courses have also served to develop the cross- campus and cross- disciplinary nature of the  Data Science Undergraduate Studies (DSUS) for the campus at large. The approach and aim have been to do disciplinary outreach, exploring as many courses with faculty across departments and waiting to see which courses thrive and succeed.
 
 
-## Links to Key Cyber Resources
+## Links to Key Cyber Resources {#links-to-key-cyber-resources}
 
 
 
@@ -747,7 +583,7 @@ Connector Courses have also served to develop the cross- campus and cross- disci
 The non-public documents are in private repositories for some of the connector courses.  The faculty makes them restricted to store the answer keys, etc. Therefore, there can be two repositories for each class.  One is available to everyone and one is kept private for instructors.  
 
 
-## An example of a Domain Connector Course
+## An example of a Domain Connector Course {#an-example-of-a-domain-connector-course}
 
 Faculty select how to share their course materials (syllabus, slides, etc). This may include:
 
@@ -763,7 +599,7 @@ This is the listing on the Data Science Connector Courses [website](https://data
 
 
 
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image10.png "image_tooltip")
@@ -773,7 +609,7 @@ Expanded Listing [website](https://data.berkeley.edu/data-science-and-mind-cogsc
 
 
 
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image11.png "image_tooltip")
@@ -783,21 +619,21 @@ GitHub [website ](https://github.com/ds-connectors/COGSCI-88)course listing
 
 
 
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image12.png "image_tooltip")
 
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 Each replication campus will need to carefully examine and support the development of partnerships based on the interest of instructors and students.  A second consideration is how data science programs will keep these courses active after the teams create and deploy them.  There needs to be a campus-specific system for the [listing of existing course content](https://data.berkeley.edu/education/connectors), cycles of development, and deployment. 
 
 All CAs are enrolled in a DATA-198, a pedagogical course that prepares student instructors through background in instructional and pedagogical concepts. 
 
 
-## Other Implementation Notes
+## Other Implementation Notes {#other-implementation-notes}
 
 
 
@@ -807,7 +643,7 @@ All CAs are enrolled in a DATA-198, a pedagogical course that prepares student i
     * Statistics 89 can be taken instead of Math 54
 
 
-## Recommendations
+## Recommendations {#recommendations}
 
 There is a need for strong inter-departmental connections throughout the university. One way to address this concern is to collect data about how some inter-departmental connections work and others do not. This data would illuminate arguments for different supports, training, and follow-ups. 
 
@@ -824,43 +660,43 @@ Fifth, many excellent Connector Courses have been developed by postdocs, lecture
 
 
 
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image13.png "image_tooltip")
 
 
 
-# Data Science Discovery Projects
+# Data Science Discovery Projects {#data-science-discovery-projects}
 
 
-## Overview
+## Overview {#overview}
 
 The Data Science Discovery Program connects undergraduates with hands-on, team-based opportunities to contribute to data research projects. Undergraduates collaborate with graduate and postdoctoral students, collaborative research institutions, inventive projects, and educational initiatives across UC Berkeley.  The students’ work in the Discovery Projects earns them [Undergraduate Research Apprenticeship Program (URAP)](https://urap.berkeley.edu/) credits towards their degree. The URAP program involves Berkeley undergraduates deeply within the university’s research life through direct connection with mentors.  The undergraduate students experience first-hand what it means to be part of an intellectual community engaged in research.
 
 Data science is an intrinsically interdisciplinary process with broad reach, fast-scaling capacity, and a large pool of interested students and projects. The Data Science Discovery Program, a joint effort of the [Berkeley Institute for Data Sciences](https://bids.berkeley.edu/), Division of Computing, Data Science, and Society, and the [Undergraduate Research Apprenticeship Program (URAP](http://urap.berkeley.edu/)<span style="text-decoration:underline;">)</span>, was created in 2015.  The program was developed to offer undergraduates the opportunity to build and apply data science skills and at the same time to provide collaborators with skilled students to help address their data challenges. 
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The Data Science Discovery Experiences model seeks to identify, connect, and scale access for undergraduate students, usually in their 3rd semester or beyond, in the data science space. It does so by creating a sustainable and diverse pipeline of projects by improving the matching and database system, fine-tuning the training and consulting services needed by graduate students, postdocs, and undergraduate research leads, and expanding internal and public communication. 	
 
 Research Partner Organizations (both in the Berkeley community and in the broader community), faculty, and graduate students can all assist in making research accessible to students. Social Impact efforts with non-profit community groups offer the opportunity to help address critical community issues. 
 
 
-## Goals
+## Goals {#goals}
 
 This program provides hands-on data science training and research experience for undergraduate students, irrespective of major while allowing students to earn academic credit in the process.
 
 The discovery projects build connections via data science between campus stakeholders/units and research partnerships with community social impact organizations.
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 This program uses active co-construction of cooperative learning (Chiu & Linn 2011; Linn, 1995, 2000) by allowing students to work on genuine projects relevant to the “real world.” Graduate students supervise undergraduates in near-peer teaching, as students work in small groups (~5) of other students. The flexibility that arises from students being matched with projects based on their interests then enhances the opportunity for students for their professional network.
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The Division of Computing, Data Science, and Society—of which the Data Science Discovery Projects program is a part—is committed to making Data Science inviting, engaging, and respectful for people of diverse identities, backgrounds, experiences, and perspectives. In our vision, equity and inclusion are essential elements of educating a rising generation of students, building a collaborative presence across campus, and serving society. Data Science raises fundamental issues of justice and participation in how it engages with human beings as sources of data, as analysts, and as people affected by its products. In everything the Division does, we are invested in working with our partners to shape this new field to be equitable and inclusive.       
 
@@ -869,7 +705,7 @@ The Division of Computing, Data Science, and Society—of which the Data Science
 The Division’s student teams recruit from disciplines all across campus to give undergraduates opportunities to lead, form connections, and shape the Berkeley Data Science community. Teams take on projects in the curriculum, internal operations, analytics, and more. Team structure changes semester to semester based on where students see opportunities for the Division to grow. A holistic, codified application review process helps teams prioritize potential members with a passion for the field and a belief in a growth mindset over pure technical skills and experience.
 
 
-## Links to Key Cyber Resources
+## Links to Key Cyber Resources {#links-to-key-cyber-resources}
 
 
 
@@ -880,7 +716,7 @@ The Division’s student teams recruit from disciplines all across campus to giv
 * Program Email <span style="text-decoration:underline;">ds-discovery@berkeley.edu</span>
 
 
-## Narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program
+## Narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program {#narrative-regarding-links-between-component-goals-pedagogical-strategies-and-central-elements-of-the-program}
 
 This program’s goals are accomplished by matching students (based on the research interests indicated in their applications) with project needs.  They work closely in small teams to develop collaboration skills and applied knowledge.  Being a part of a Discovery Project team brings students into direct contact with organizations that require assistance with data science problems.  
 
@@ -890,13 +726,13 @@ Spring 2020 [Project Listings](https://data.berkeley.edu/discovery-project-list/
 
 
 
-<p id="gdcalert33" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert34">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image14.png "image_tooltip")
 
 
-<p id="gdcalert34" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert35">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image15.png "image_tooltip")
@@ -908,7 +744,7 @@ Full [Project Description](https://data.berkeley.edu/spring-2020-discovery-proje
 
 
 
-<p id="gdcalert35" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert36">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image16.png "image_tooltip")
@@ -918,7 +754,7 @@ Full [Project Description](https://data.berkeley.edu/spring-2020-discovery-proje
 
 
 
-<p id="gdcalert36" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert37">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image17.png "image_tooltip")
@@ -926,7 +762,7 @@ Full [Project Description](https://data.berkeley.edu/spring-2020-discovery-proje
 
 
 
-<p id="gdcalert37" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert38">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image18.png "image_tooltip")
@@ -934,19 +770,19 @@ Full [Project Description](https://data.berkeley.edu/spring-2020-discovery-proje
 
 
 
-<p id="gdcalert38" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert39">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image19.png "image_tooltip")
 
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 Currently, at Berkeley, ~ 30% of the interested 300–400 students are matched with projects. Important factors to consider include (a) a robust database (with an underlying matching algorithm), (b) having staff to aid with the matching process, and (c) partner outreach.
 
 
-## Other Implementation Notes
+## Other Implementation Notes {#other-implementation-notes}
 
 For partners, there are a few requests that they consider: (a) the level of support your project needs, and (b) the level of support/mentorship you can provide.
 
@@ -965,7 +801,7 @@ Level of support/mentorship you can provide
 * Create infrastructure for your students with specific tasks and goals, clear expectations, and progress tracking.
 
 
-## References
+## References {#references}
 
 Chiu, J. L., & Linn, M. C. (2011). Knowledge integration and wise engineering. Journal  \
 	of Pre-College Engineering Education Research (J-PEER), 1(1), Article 2. 
@@ -988,27 +824,27 @@ http://dx.doi.org/10.1080/095006900412275
 
 
 
-<p id="gdcalert39" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert40">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image20.png "image_tooltip")
 
 
 
-# Data Scholars Program
+# Data Scholars Program {#data-scholars-program}
 
 
-## Overview
+## Overview {#overview}
 
 	The Data Science Undergraduate Studies and D-Lab co-developed the Data Scholars Program to respond to data science education inequity.  The program exists to address under-representation issues in the data science community. Through the seminar series, it establishes a welcoming, educational, and empowering group for marginalized communities and nontraditional students. This program was launched in Fall 2016, and it is especially suited for students who bring diverse and positive contributions to data science. The program offers specialized tutoring, advising, and workshops in a sequence of three 1-unit seminar courses. Students apply to join the first seminar, Data Scholars Foundations, concurrent with the semester they enroll in the Foundations of Data Science Course and may participate in the Data Scholars Pathways seminar and Data Scholars Discovery seminar in subsequent semesters.
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 Underrepresented and nontraditional students are the intended Data Scholar program participants. The goal is to develop a strong community and data science support for students who might not otherwise have it.  This space offers students a sense of belonging and being a part of transformative learning while navigating challenges in courses and deciding about a possible future in data science.  
 
 
-## Goals
+## Goals {#goals}
 
 The Data Scholars program benefits students in three essential areas:
 
@@ -1019,7 +855,7 @@ The Data Scholars program benefits students in three essential areas:
 * Mentorship: Graduate students, postdocs, faculty, staff, and alumni from Cal mentor students.  The program has a robust underlying network of professionals that students can be referred to by their instructor for specific questions and connections.
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 The program consists of three seminars:
 
@@ -1034,12 +870,12 @@ The program consists of three seminars:
     * For students who have completed the Pathways seminar and have two or more semesters of data science coursework completed, the Discovery Seminar provides special workshops. The [Data Science Discovery Research program](https://data.berkeley.edu/research/discovery)<span style="text-decoration:underline;"> </span>offers instruction on science tools, facilitates student matching onto some of the ongoing research projects, and offers research mentorship by experienced grad students and staff.
 
 
-## Key Diversity and Inclusion Practices and Strategies:
+## Key Diversity and Inclusion Practices and Strategies: {#key-diversity-and-inclusion-practices-and-strategies}
 
 Foundational Data Science coursework challenges students. Data Scholars provides extra support for Underrepresented students for this coursework. The assistance provided in the Foundations Seminar allows students to easily ask questions and receive answers from peers and their instructor.  The increased support allows for a greater likelihood of success in data science courses. Students can join smaller group discussions about assumptions regarding perceptions of success, meeting faculty, people in the private sector, and networking.  The following two seminars offer an introduction to data science careers and research.
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
@@ -1050,12 +886,12 @@ Foundational Data Science coursework challenges students. Data Scholars provides
 * [Foundations Set-Up Guidance](https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit)
 
 
-## Program Description
+## Program Description {#program-description}
 
 	The Data Science Undergraduate Studies offers community to underrepresented students and nontraditional students in data science at Cal with the Data Scholars program.  The program consists of an application process, a Foundations Seminar to help with the Foundations of Data Science course, a Pathways Seminar that exposes students to avenues within data science, and the Data Scholars Discovery Projects seminar supporting their collaborative work.  The program provides students with a welcoming and growth-mindset network of peers, mentors, and community organizations.
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 	Developing and supporting one or more staff roles focused on the Data Scholars program helps with the ongoing work necessary to keep a Data Scholars program thriving.  With minimal support staff, the program becomes restricted in specific ways, and its success can be limited. 
 
@@ -1065,27 +901,27 @@ Foundational Data Science coursework challenges students. Data Scholars provides
 
 
 
-# Data Scholars Foundations Seminar 
+# Data Scholars Foundations Seminar  {#data-scholars-foundations-seminar}
 
 
-## Overview
+## Overview {#overview}
 
 The Data Scholars Foundation seminar is a one-unit seminar for students in the Data Scholars program who are enrolled concurrently in the Foundations of Data Science course. This seminar meets for one hour, once per week. Students attend the class and engage with other student scholars, program staff, and the student instructor weekly. The course is a blend of instructional support for Data 8, guidance on navigating the data science ecosystem at Cal, a series of guest speakers, and workshops.
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The Foundations Seminar is the first of the courses of the Data Scholars series. Students enroll while they enroll in the Foundations Course. The Foundations Seminar directly engages with the Foundations coursework, and Data Scholars are put into a lab or multiple lab sections together. The grouping of students in the lab creates a smaller community for Data Scholars to refine their understandings within the seminar.
 
  
 
 
-## Goals
+## Goals {#goals}
 
 Within this seminar, students will engage in topics of diversity in the field of Data Science and its unique challenges. The seminar explores various applications of Data Science and career possibilities. This allows the student to gain an understanding of the resources and opportunities available to them. Finally, students receive adequate support, mentorship, and tutoring to perform successfully in the Foundations Course.
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 
 
@@ -1097,26 +933,26 @@ Within this seminar, students will engage in topics of diversity in the field of
 * Exploration of applications of data science, through guest speakers and workshops
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The seminar is focused on developing the Data Scholars strategies for completing the Foundations of Data Science course.  It introduces underrepresented students to data science, what you can do with a career in data science, data science opportunities at Cal, and practice problems.
 
 	As a small group, the students also discuss developing their resume, reviewing Foundations in Data Science Course topics, and attend workshops on web scraping, R, and other data science topics.
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
 * [Spring 2020 Foundations Syllabus](https://docs.google.com/document/d/1EUyagoHDGqWxhYJzENPA-9VRvKDRMMejK1s0PW3E3sE/edit)<span style="text-decoration:underline;">	</span>
 
 
-## Program Description
+## Program Description {#program-description}
 
 The Foundations Seminar is a one-unit course that supports Data Scholars in their successful completion of the Foundations course and prepares them for the two other seminars in this series.  Through a blend of targeted small group support and integration into a smaller data science community, these students can develop their data science literacy and network. The Data Scholars program supports URM students in their entry to data science at Cal and prepares them to use specific tools through workshops. This first seminar of the three-seminar series is a platform for further work in the Data Scholars Pathways and Data Scholars Discovery Research projects that follow. 
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 	It is essential to be mindful of the specific student body and needs of students on your campus.  The focus of the Foundations seminar is to closely support students who may go underserved in their data science work.  For other institutions, this could be developed with the main focus that highlights one area: the development of a small cohort, beginning a research project, peer-to-peer work, or workshops.
 
@@ -1126,20 +962,20 @@ The Foundations Seminar is a one-unit course that supports Data Scholars in thei
 
 
 
-# Data Scholars Pathways Seminar 
+# Data Scholars Pathways Seminar  {#data-scholars-pathways-seminar}
 
 
-## Overview
+## Overview {#overview}
 
 	This course is one of the three sequence seminars for students in the Data Scholars program.  After finishing the Foundations Course, students take the Pathways Seminar. This course exposes Data Scholars to opportunities specific to future employment in data science. The Seminar attracts a broad range of students, such as people curious to know more about data science outside of the Foundations Course to students who know they want to major and work in the field. 
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The Data Science Pathways Seminar is one part of the Data Scholars Program. Data Scholars take it after they have completed the Foundations Course and the Foundations Seminar for the Data Scholars Program.  The course offers a deeper understanding of future employment opportunities for students interested in pursuing data science. 
 
 
-## Goals
+## Goals {#goals}
 
 The Pathways Seminar focuses on five goals. 
 
@@ -1152,7 +988,7 @@ The Pathways Seminar focuses on five goals.
 * Boost confidence in a planned/flexible format.  
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 	In Pathways, students learn about the opportunities of real-world data science applications through three main avenues. First, guest speakers from industry, research, and academia talk with students on what they do with data science, how they got there, and advice for undergrads. Secondly, workshops led by the instructor, D-Lab staff, and guest speakers give students valuable professional and technical skills to secure relevant internships and research positions. Finally, self-guided exploration and reflection assignments will empower students to gain desired skills and connections in data science subfields of personal interest.
 
@@ -1167,7 +1003,7 @@ The instructor encourages a welcoming course by setting group expectations.  Exa
 * “Don’t yuck my yum.” No negative comments are welcome regarding someone else’s preferred workflow/tools/language/etc. (e.g., Mac vs. PC, Python vs. R, tabs vs. spaces). We will respect everyone’s preferences.
 
 
-## Key Diversity and Inclusion Practices and Strategies:
+## Key Diversity and Inclusion Practices and Strategies: {#key-diversity-and-inclusion-practices-and-strategies}
 
 Students are empowered to participate and process the information together throughout the semester. Students think through their understanding of employment pathways by writing start and exit reflections (1-page write-ups of your thoughts and questions on a career in data science, submitted in the first and last weeks of the semester). 
 
@@ -1176,7 +1012,7 @@ Weekly workshops and speaker background assignments create a foundation for stud
 The Data Science [Exploration Assignment ](https://docs.google.com/document/d/1-metTMvzKOWQQ5AHqxQkR1o2b1HXWjAQlY1SYPM7Db8/edit)is an experiential assignment designed to familiarize students with the modern data science professional landscape and build skills. Students will complete two Explorations per semester, choosing from a [list of suggested options](https://drive.google.com/a/berkeley.edu/open?id=1-metTMvzKOWQQ5AHqxQkR1o2b1HXWjAQlY1SYPM7Db8) or proposing their own (with instructor approval).
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
@@ -1186,22 +1022,22 @@ The Data Science [Exploration Assignment ](https://docs.google.com/document/d/1-
 	
 
 
-## Program Description
+## Program Description {#program-description}
 
 The Pathways Seminar is one part of a three-course series to support Data Scholars’ success at Cal.  This seminar meets for one-and-a-half hours, once per week. During this course, students attend talks from speakers and workshops on data science tools.  The small seminar space has a foundation of valuing student support needs and enhancing their ability to network with faculty and professionals. 
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 	It is useful to develop a network of guest speakers and community partners who can host workshops. Your focus areas for speakers and workshops will vary depending on your student population and needs.  For example, at Cal in Spring 2018, a guest speaker from the College Futures Foundation came to the Pathways Seminar.
 
 
 
 
-# Data Scholars Discovery Projects Seminar
+# Data Scholars Discovery Projects Seminar {#data-scholars-discovery-projects-seminar}
 
 
-## Overview
+## Overview {#overview}
 
 	The Data Scholars Discovery Projects Seminar supports Data Scholars students participating in the Discovery Research Projects.  Data Scholar students apply to the Discovery Projects program to be matched with one of the current research opportunities.  The Data Scholar students participate in this seminar to support their participation in the Discovery Project program. 
 
@@ -1210,32 +1046,32 @@ The Pathways Seminar is one part of a three-course series to support Data Schola
 	The Seminarwill meet for 90 minutes once a week.
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 	The seminar is for Data Scholar students completing the series of courses.  This course directly supports these students. 
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
 * [Spring 2020 Data Scholars Discovery Syllabus](https://docs.google.com/document/d/1U19zT0CnZq6CUTFgabr4GSXGJntU0Agplj6wwLnKA2Y/edit)
 
 
-# Jupyter Notebook Development Team
+# Jupyter Notebook Development Team {#jupyter-notebook-development-team}
 
 
-## Overview
+## Overview {#overview}
 
 The Jupyter Notebook Development Teams allow undergraduate students to apply what they learn in data science courses in the production of teaching resources. Each team has a  student [Team Lead](https://docs.google.com/document/d/17LS1c9qqtQIj0P_9h9oJPhkNA6StgZZ2H0GRoN8xWzo/edit) who is an experienced Jupyter Notebook developer. The teams collaborate with instructors from across campus to build and deploy the Jupyter Notebooks in Applied Instructional Modules as well as Domain Connector Courses. Instructors teach DS Modules in one or multiple sessions of a course. 
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The Jupyter Notebook Development Team program assembles undergraduate student teams through an open application process. Students with a mix of data science skills, pedagogy knowledge, and a passion for a domain area are well-suited for the program. All students are part of an apprenticeship model of near-peer learning in their teams. There is a two-tier system of participation. Students begin by taking a Data 198 pedagogy course for credits and then can move on to the second tier. Students that have completed at least one semester as a team member are eligible to become a [Jupyter Development Team Lead](https://docs.google.com/document/d/17LS1c9qqtQIj0P_9h9oJPhkNA6StgZZ2H0GRoN8xWzo/edit). These students receive pay for overseeing the development of the Jupyter Notebook with their team. 
 
 
-## Goals
+## Goals {#goals}
 
 Notebook teams develop essential course materials. Their process and production with faculty result in real-time open data science educational content.  This content provides added value to existing courses. With this added value entering the campus community, moreover, the outreach and conversations about data science and its programs at UC Berkeley increase their reach institutionally.
 
@@ -1249,12 +1085,12 @@ The DS Modules Program Coordinator for the UC Berkeley Division of Computing, Da
 Once the faculty signs the contract that includes the guidelines for the course, the team of students will begin to work through the development of the DS Module together.  
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 The Division’s student teams recruit from disciplines all across campus to give undergraduates opportunities to lead, form connections, and shape the Berkeley data science community. Teams take on projects in the curriculum, internal operations, analytics, and more. Team structure changes semester to semester based on where students see opportunities for the Division to grow. A holistic, codified application review process helps teams prioritize potential members with a passion for the field and a belief in a [growth mindset](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means) emphasizes that technical skills can be developed.
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 The students use [JupyterHub ](http://jupyter.org)to store their work on DS Modules and may use [Slack](https://slack.com/) to communicate with one another about meeting notes. The completed DS Module materials storage is on [GitHub](https://github.com/ds-modules).
 
@@ -1268,7 +1104,7 @@ Other vital documentation to keep in mind includes the interview questions, onbo
 * [Contract Template](https://drive.google.com/file/d/17KLcms6XwRlarlUWRfnMG5qMCgWv1ie4/view?usp=sharing)
 
 
-## Program Description
+## Program Description {#program-description}
 
 Applied content in data science is made available by the work of the Jupyter Notebook Development Teams.  They work in small groups on JupyterHub to stay thoughtfully involved in the ongoing process of applied data science lessons for entry level data scientists.  Neer-peer learning allows students to move through apprenticeship level responsibilities as they move from novice (first tier) experiences into the lead of Team Lead (second tier).  The student team members create course content gaining a sense of community, collaboration skills, and professionalization imbued in a growth mindset structure as they provide difficult content into accessible chunks.  
 
@@ -1284,7 +1120,7 @@ Example
     * The faculty needs the capacity to be able to answer questions about the set deployment date of the domain-specific DS Module weeks in advance as the Jupyter Notebook is developed.  Timely feedback and requests for changes need to be sent early so that students have the time in their course and schoolwork schedule to make the updates.
 
 
-## Additional Guidance for Implementation
+## Additional Guidance for Implementation {#additional-guidance-for-implementation}
 
 A critical factor in moving this program from university to university is the infrastructure. UC Berkeley builds a data science program that uses existing campus resources, a specific group of staff, and agreed-upon guidelines. 
 
@@ -1296,7 +1132,7 @@ A critical factor in moving this program from university to university is the in
 * UC Berkeley’s program has specific foundational criteria for their data sets.  It must be appropriate content licensed for their use and that students can work efficiently.  Again, if the faculty does not have a background in data science, this might be an impossible feat independently.
 
 
-## Recommendations
+## Recommendations {#recommendations}
 
 Finally, one idea for the program that is not yet deployed is the creation and repetition of DS Module development using templates. A set of DS Module templates would include domain agnostic templates for linear regression, cleaning data, hypothesis testing, and other familiar topics. The Jupyter Notebook Development Teams would build specific DS Modules using the models. They may be more formulaic than the current process at UC Berkeley, but it could make the management of DS Module development simpler. 
 
@@ -1307,17 +1143,17 @@ Finally, one idea for the program that is not yet deployed is the creation and r
 
 
 
-<p id="gdcalert40" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert41">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image21.png "image_tooltip")
 
 
 
-# Data Peer Consulting
+# Data Peer Consulting {#data-peer-consulting}
 
 
-## Overview
+## Overview {#overview}
 
 Data Peer Consulting is a program that supports data science work across campus. The Data Peer Consultants offer meetings with students, post-docs, visiting scholars, and faculty regarding any questions about a data science project. Currently, they primarily serve undergraduate students. There is also a smaller population of Master’s-level and Ph.D. students using their service. They also assist students from undergraduate and graduate-level courses that include a DS Module.
 
@@ -1326,19 +1162,19 @@ Data Peer Consulting is a program available to the campus population throughout 
 The physical Data Peer Counseling station is set up in the library corner as a table with two individuals within a roped-off area that is perpendicular to the Data Science Peer Advising table. They have clear signage and laptops with them. This resource offers face-to-face meetings between 11am to 4pm Monday through Friday during the academic year. Students can also contact them through their program email to ask about scheduling other appointment times. A consultation typically lasts from fifteen to thirty minutes. Hour-long consultation may occur but is not typical.  
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 Because the Data Peer Consulting is physically located in a public library space, it can reach the broader campus community of students. The sixteen data peers are undergraduate students that list their coursework online so that other undergraduate students can best match their needs to the data peer. Two Data Peers commented that their primary audience is students who are not majoring in data science. The Data Peer Consulting program aims to support students from a wide range of domains who have data science questions.
 
 
-## Goals
+## Goals {#goals}
 
 Overall, the primary goal of Data Peers is to support students’ data science work across campus. Data Peers is a drop-in support network for undergraduate, graduate, and faculty using data sciences in their research. This program allows for further assistance in data science for students from diverse domains who may be using data science in their coursework but do not yet understand the methodological framework. 
 
 This program offers a pathway to leadership in data science consultation. Students begin with specific coursework, then have the opportunity to work closely with the campus community. Students have hands-on experience that can build students’ resumes, offer course credit, and then a paid position through increased leadership. 
 
 
-## Pedagogical and Curricular Strategies
+## Pedagogical and Curricular Strategies {#pedagogical-and-curricular-strategies}
 
 The conceptual framework for this program includes: 
 
@@ -1358,17 +1194,17 @@ There are two components to this course: the workshop and the application.  Work
 The program uses a Slack Channel to communicate about common questions when they need assistance from other Data Peers. The students participate as part of the course the first year and receive pay for subsequent semesters.
 
 
-## Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies {#key-diversity-and-inclusion-practices-and-strategies}
 
 As part of the Data 198 course, students learn about how psychological experiences can impact education and learning.  For example, the course discusses stereotype threat (Steele & Aronson, 1995), imposter syndrome (Clance & Imes, 1978), and how the tone of a learning environment (Jackson, 2008) impacts students. Many students express their desire to become involved because they want to join the existing community space of the Division of Computing, Data Science, and Society.
 
 
-## Cyber Resources 
+## Cyber Resources  {#cyber-resources}
 
 Students collect records regarding consultations as people drop-in. The service user fills out a form online. Consultees enter their names, department, the time, the kind of question they need assistance with, and other similar consultation demographics. 
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 
 
@@ -1387,21 +1223,21 @@ Students collect records regarding consultations as people drop-in. The service 
 * Program email: <span style="text-decoration:underline;"> [ds-peer-consulting@berkeley.edu](mailto:ds-peer-consulting@berkeley.edu)</span>
 
 
-## Program Description
+## Program Description {#program-description}
 
 The Data Peer Consulting program provides students and faculty across campus assistance with data science work through a drop-in table at the undergraduate student library. Data Peers all take a foundational course that transitions them into developing consultation and teaching skills. During the course session, they work as a data consultant and are eligible to receive compensation in subsequent semesters.  All of the consultants connect through a Slack channel where they can share questions and answers about consultation sessions.  
 
 Individuals can also request a time outside of the drop-in sessions for a consultation.  Consultations generally last from fifteen minutes to one hour. This service does not cover material of substantial depth but assists in getting people “unstuck” in their data science work. Data Peer Consulting is one of the many opportunities in data science programming at UC Berkeley where students can gain hands-on skills using and trouble-shooting data science issues on campus. They had around 200 help requests in the 2020-2021 academic year. 
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 Other institutions need to think critically about how to train the data peers (the use of DATA-198 materials). They can ensure the compatibility of the training material content by updating them to fit their student audience best.
 
 Other institutions should be aware of the specific gaps that this program can fill for their institution. Building a working relationship with departments, data science courses, and faculty is important. Relationships with faculty allow for a smoother connection as the institution uses the program as a broad resource. The Data Peers program has also created a space for relationships between Data Science Undergraduate Studies and the Library, along with partners in the D-Lab and Research IT. 
 
 
-## References
+## References {#references}
 
 Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: 
 
@@ -1420,17 +1256,17 @@ African Americans. _Journal of personality and social psychology_, _69_(5), 797.
 ---
 
 
-# Undergraduate Student Instructors
+# Undergraduate Student Instructors {#undergraduate-student-instructors}
 
 
-## Overview
+## Overview {#overview}
 
 Undergraduate Student Instructors (UGSIs) provide teaching services to support UC Berkeley's rapidly growing data science program. Working alongside instructors, UGSIs are part of the scalable peer instruction model of the undergraduate curriculum. The UGSIs help facilitate collaborative team-based learning, near-peer instruction, and active learning. UGSIs are highly-motivated to learn and to share their knowledge. This model is a cost-effective resource that supports peer-learning, provides mentoring, and iteratively enables the co-creation of course materials alongside the professor. 
 
 Employing undergraduate students as instructors is a unique and successful aspect of the program, and has helped the expansion of the Data Science Undergraduate Studies over the past five years. On occasion, departments within the College of Letters & Science may have a shortage of applicants for Graduate Student Instructor (GSI) positions. If no qualified graduate student from the appointing department or other departments is available, a highly motivated and advanced undergraduate may work in the GSI position. In this program, UGSIs must have previous knowledge of the subject and complete domain-specific courses on teaching Data Science. 
 
 
-## Target Audience
+## Target Audience {#target-audience}
 
 The target audience for the UGSI positions are undergraduate students who have taken and excelled at the course for which they apply. This includes students interested in skill development, leadership, and education. In general, students are seldom able or allowed to become UGIs until their second year at Cal. They often stay multiple semesters and may choose to continue teaching a particular course with a specific instructor. 
 
@@ -1444,14 +1280,14 @@ Students may become a UGSI for one of two main reasons, reflecting the two diffe
 Both UGSIs and instructors hold office hours. Moreover, there are different types of study sessions such as “Homework Parties” and “Midterm Reviews” that are run nearly entirely by student staff. Student staff often prepare study aids for the students for these sessions, such as worksheets and review sheets of practice problems for students to work on. Additionally, there are “Tutors,” another category of undergraduate student course support who help out at office hours or study sessions and are not paid. Students who begin as Tutors and perform well for a semester or more have a better chance of obtaining the UGSI job. There are a similarly large number of Tutors as there are UGSIs.
 
 
-## Goals
+## Goals {#goals}
 
 Undergraduate student instructors provide a more personalized and refreshing experience for the students in data science courses. UGSIs are able to relate and provide both professional and personal support to students, often in a different way than GSIs and professors. First, UGSIs have current knowledge of the course requirements and expectations and are fully familiar with the course from a dual perspective of both a student and teacher. Second, UGSIs can share the methods they have already developed and honed to work through the course material. Third, UGSIs remember their experience with the material for the first time and are able to guide other students through the course, easily identifying roadblocks to learning material as well as providing explanations helpful to a student encountering the course for the first time. Fourth, some students feel less intimidated and more comfortable asking for help from a peer instructor rather than from a GSI or professor.
 
 Becoming a UGSI is a path available to students who wish to pursue a career in education or academia.
 
 
-## Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies {#key-pedagogical-or-curricular-strategies}
 
 The[ course materials](https://github.com/sequoia-tree/teaching-cs/commit/6ce5e1b85a9006584b7baa9a2ca4567a185d4416) from Introduction to Teaching Computer Science includes written reflection as a way that UGSIs can process and think about how to apply concepts to their teaching.
 
@@ -1469,7 +1305,7 @@ uGSI teams are organized by:
 These teams meet weekly and make any needed changes along the way. 
 
 
-## Links to Key Cyber Resources and their Implementation 
+## Links to Key Cyber Resources and their Implementation  {#links-to-key-cyber-resources-and-their-implementation}
 
 	Notable key instructional support resources include Piazza for discussion sections  and Gradescope for grading at scale across many graders. When the course was designed the autograder OkPy is used. OkPy requires an assignment to be completed on datahub, then the data hub submits to OkPy and can be viewed in submission format, and there is a script to take the submission on Ok Py and export it to Gradescope. The course is currently using another autograding system called Otter-Grader, that is run via Gradescope.  Data 8, as well as other  courses in the data science area have an online textbook that is kept up to date, which is useful for linking chapters in slideshows. Data 100 has a separate datahub through which students can fetch and submit their assignments, which includes all the packages and dependencies so all students are working under the same environment.  
 
@@ -1484,14 +1320,14 @@ These teams meet weekly and make any needed changes along the way.
 [https://www.gradescope.com/](https://www.gradescope.com/)
 
 
-## Links to Key Documents
+## Links to Key Documents {#links-to-key-documents}
 
 [https://github.com/sequoia-tree/teaching-cs](https://github.com/sequoia-tree/teaching-cs)
 
 [https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html](https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html)
 
 
-## Other Key Inputs
+## Other Key Inputs {#other-key-inputs}
 
 There are several levels within the model of undergraduate staffing, most of which are paid positions.
 
@@ -1548,22 +1384,22 @@ Candidates for data science courses (which are cross-listed as stats courses) mu
 2. Have an overall GPA of 3.1 or higher
 
 
-## The narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program
+## The narrative regarding links between Component Goals, Pedagogical Strategies, and Central Elements of the Program {#the-narrative-regarding-links-between-component-goals-pedagogical-strategies-and-central-elements-of-the-program}
 
 	The construction of the course is a combination of the professor aided by the UGSIs. There is a pedagogy team for some of the larger courses.
 
 
-## Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions {#best-practices-for-variation-across-institutions}
 
 The most important aspects of the program are the branched hierarchy of student staff that carries out delegation through a chain of command and the incremental improvements the course material receives over the years.
 
 
-## Critical TA Professional Development and Training
+## Critical TA Professional Development and Training {#critical-ta-professional-development-and-training}
 
 	Within the Data Science program, there are several steps required for training. To become a UGSI, students must take CS 370: Introduction to Teaching Computer Science. This course covers methods for teaching, including leading one-on-one practice tutoring. UGSIs often have weekly meetings throughout the semester to go over material and announcements. 
 
 
-## Implementation for Specific Courses
+## Implementation for Specific Courses {#implementation-for-specific-courses}
 
 Below are several popular courses that each have their own structure of staffing depending on the age/iterations of the course, size of the class, and professor’s wishes. Course use and growth as a function of student-instructor support has linearly expanded to include thousands of students, in certain typically lower-division courses. 
 
@@ -1646,7 +1482,7 @@ Data, Inference, & Decisions
 
 
 
-## Other Implementation Notes
+## Other Implementation Notes {#other-implementation-notes}
 
 Info to use as writing up : [https://grad.berkeley.edu/appointments-handbook/](https://grad.berkeley.edu/appointments-handbook/)
 
@@ -1682,17 +1518,17 @@ If serving as a first-time GSI, departments/hiring units are responsible for ens
 * Undergraduate GSI appointees are eligible for fee remission per the UC UAW contract. Undergraduate GSI fee remissions are not processed by the Graduate Division; departments are responsible for remissions associated with Undergraduate GSI Appointments. Please refer to EVCP Breslauer’s memo dated March 10, 2008 for information.
 
 
-## Additional Guidance for Implementation
+## Additional Guidance for Implementation {#additional-guidance-for-implementation}
 
 It must be noted that the current UGSI staffing model may undergo changes starting 2021 because of a multi-million dollar lawsuit settled in January 2020 between the student workers union and the institution regarding scheduling hours and tuition remission. 
 
 
-## Recommendations
+## Recommendations {#recommendations}
 
 The program may benefit from including universal design or other access features. This may include key diversity and inclusion practices and strategies.
 
 
-## Sources
+## Sources {#sources}
 
 
 <table>
