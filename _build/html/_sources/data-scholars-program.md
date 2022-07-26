@@ -31,28 +31,24 @@ Goals
 
 The Data Scholars program benefits students in three essential areas:
 
--   Support: Skill-building workshops, tutoring, and homework help are
-    > available for students to gain additional peer-to-peer
-    > collaboration and instructor assistance.
-
--   Community: Throughout the seminars, students participate in social
-    > events and talks that emphasize diversity in data sciences. For
-    > example, a data scientist or researcher may come to the Pathways
-    > Seminar and present their work to the small group with an open
-    > question-and-answer section so that students can actively
-    > participate.
-
--   Mentorship: Graduate students, postdocs, faculty, staff, and alumni
-    > from Cal mentor students. The program has a robust underlying
-    > network of professionals that students can be referred to by their
-    > instructor for specific questions and connections.
+- Support: Skill-building workshops, tutoring, and homework help are available
+    for students to gain additional peer-to-peer collaboration and instructor
+    assistance.
+- Community: Throughout the seminars, students participate in social events and
+    talks that emphasize diversity in data sciences. For example, a data
+    scientist or researcher may come to the Pathways Seminar and present their
+    work to the small group with an open question-and-answer section so that
+    students can actively participate.
+- Mentorship: Graduate students, postdocs, faculty, staff, and alumni from Cal
+    mentor students. The program has a robust underlying network of
+    professionals that students can be referred to by their instructor for
+    specific questions and connections.
 
 Key Pedagogical or Curricular Strategies
 
 The program consists of three seminars:
 
 -   Data 8 Section and Foundations Seminar
-
     -   Students enrolling in Data 8 can apply to join Data Scholars.
         > Students will enroll in a Data Scholars-only lab section for
         > Data 8, and join a specialized 1-unit Foundations seminar.
@@ -96,20 +92,11 @@ seminars offer an introduction to data science careers and research.
 
 Links to Key Documents
 
--   Data Scholars [[
-    > Website](https://data.berkeley.edu/academics/resources/data-scholars)]{.underline}
-
--   [[Article posted about the launch of Data
-    > Scholars]{.underline}](https://data.berkeley.edu/news/berkeleys-data-scholars-next-gen-data-scientists)
-
--   [[Spring 2020 Data Scholars
-    > Application]{.underline}](https://forms.gle/bqSkPGirTugZ9KBAA)
-
--   Data Scholars Facilitator [[Job
-    > Description]{.underline}](https://docs.google.com/document/d/1wnPUDqCA0BK8vbkntlG3VQAqwA2vFEIa9Cyon7r1-eM/edit)
-
--   [[Foundations Set-Up
-    > Guidance]{.underline}](https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit)
+- Data Scholars [Website](https://data.berkeley.edu/academics/resources/data-scholars)
+- [Article posted about the launch of Data Scholars](https://data.berkeley.edu/news/berkeleys-data-scholars-next-gen-data-scientists)
+- [Spring 2020 Data Scholars Application](https://forms.gle/bqSkPGirTugZ9KBAA)
+- Data Scholars Facilitator [Job Description](https://docs.google.com/document/d/1wnPUDqCA0BK8vbkntlG3VQAqwA2vFEIa9Cyon7r1-eM/edit)
+- [Foundations Set-Up Guidance](https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit)
 
 Program Description
 
