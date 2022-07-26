@@ -1,7 +1,6 @@
-Foundations of Data Science Course
-===============================================
+# Foundations of Data Science Course
 
-Overview
+## Overview
 
 Foundations of Data Science (Data 8) is an introductory data science
 course that combines principles and skills in statistics, programming,
@@ -16,14 +15,14 @@ undergraduates taking the course. The course should be taken
 concurrently with a connector course. Some students might also be
 eligible to join Data Scholars if they are from marginalized groups.
 
-Target Audience
+## Target Audience
 
 First-year students interested in data science, undergraduates with no
 prior experience with data science, python, or advanced math and
 statistics, and students who want to explore STEM careers take the
 Foundations Course for an introduction to the process of analyzing data.
 
-Goals
+## Goals
 
 This course introduces students to programming so that they can
 comfortably carry out computational data science techniques. Ethical
@@ -52,7 +51,7 @@ Foundations Coursethrough a weekly schedule across the semester.
 ![A picture containing timeline Description automatically
 generated](media/media/image22.png)
 
-Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies
 
 At its core, the course lowers the level of abstraction by using
 domain-related questions while teaching Python coding and statistical
@@ -177,7 +176,7 @@ economic data, document collections, geographical data, and social
 networks. It delves into social issues surrounding data analysis, such
 as privacy and design.
 
-Best Practices for Success/Variation Across Institutions
+## Best Practices for Success/Variation Across Institutions
 
 Institutions using different course management systems may need to
 adjust some of the cyberinfrastructures. The digital infrastructure of

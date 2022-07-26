@@ -1,7 +1,6 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-- file: intro
+format: jb-book
+root: intro
+chapters:
 - file: foundations-of-data-science-course
 - file: domain-connector-courses
 - file: cyberinfrastructure

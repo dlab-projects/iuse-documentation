@@ -4,10 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Science Modules &#8212; My sample book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Science Modules &#8212; NSF IUSE Documentation</title>
     
-  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -17,83 +20,98 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-  <link rel="stylesheet"
-    href="_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
-
-    
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
 
-
-
+    <!-- Google Analytics -->
+    
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="index.html">
-  
-  <img src="_static/logo.png" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">My sample book</h1>
-  
-</a>
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">NSF IUSE Documentation</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <ul class="nav sidenav_l1">
- <li class="toctree-l1">
-  <a class="reference internal" href="intro.html">
-   NSF IUSE Introduction
-  </a>
- </li>
-</ul>
-<ul class="nav sidenav_l1">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    NSF IUSE Introduction
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="foundations-of-data-science-course.html">
    Foundations of Data Science Course
@@ -119,24 +137,32 @@
    Data Peer Consulting
   </a>
  </li>
- <li class="toctree-l1 collapsible-parent">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="data-scholars-program.html">
    Data Scholars Program
   </a>
-  <ul class="collapse-ul">
-   <li class="toctree-l2 collapsible-parent">
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
     <a class="reference internal" href="data-scholars-discovery-projects-seminar.html">
      Data Scholars Discovery Projects Seminar
     </a>
-    <ul class="collapse-ul">
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
      <li class="toctree-l3">
       <a class="reference internal" href="data-science-discovery-projects.html">
        Data Science Discovery Projects
       </a>
      </li>
     </ul>
-    <i class="fas fa-chevron-down">
-    </i>
    </li>
    <li class="toctree-l2">
     <a class="reference internal" href="data-scholars-foundations-seminar.html">
@@ -154,8 +180,6 @@
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="undergraduate-student-instructors.html">
@@ -164,90 +188,181 @@
  </li>
 </ul>
 
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
     </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/main.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-        <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmain.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
-
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
-
-        <!-- Launch buttons -->
-
-    </div>
-
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
         </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmain.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/main.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#overview">
    Overview
@@ -255,13 +370,36 @@
  </li>
 </ul>
 
-        </nav>
-        
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Data Science Modules</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
               <div>
                 
   <p>[NSF IUSE Documentation Index]{.underline}</p>
@@ -280,10 +418,10 @@
 <p><a class="reference external" href="#e1tdsk3d7czk">[Data Scholars Discovery Research Projects]{.underline}</a></p>
 <p><a class="reference external" href="https://docs.google.com/document/d/11f801DVV8QbaskEYiQ7OpuqfVbXIVPxfCeq0C5ffz1Q/edit">[Cyberinfrastructure]{.underline}</a></p>
 <p><img alt="" src="_images/image13.png" />{width=”5.875in” height=”1.9375in”}</p>
-<div class="section" id="data-science-modules">
-<h1>Data Science Modules<a class="headerlink" href="#data-science-modules" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<section class="tex2jax_ignore mathjax_ignore" id="data-science-modules">
+<h1>Data Science Modules<a class="headerlink" href="#data-science-modules" title="Permalink to this headline">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">#</a></h2>
 <p>Data Science Modules (“DS Modules”) are short explorations into data
 science that give students the opportunity to work hands-on with a data
 set relevant to their course and receive some instruction on the
@@ -518,12 +656,12 @@ students. The private materials are for the faculty and GSIs.</p>
 </li>
 <li><p>[[Deployment</p>
 <blockquote>
-<div><p>Calendar]{.underline}](https://calendar.google.com/calendar/embed?src=berkeley.edu_gka2us8b56n33cqvch528gt650%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles)</p>
+<div><p>Calendar]{.underline}](<a class="reference external" href="https://calendar.google.com/calendar/embed?src=berkeley.edu_gka2us8b56n33cqvch528gt650%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles">https://calendar.google.com/calendar/embed?src=berkeley.edu_gka2us8b56n33cqvch528gt650&#64;group.calendar.google.com&amp;ctz=America/Los_Angeles</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Data Peer</p>
 <blockquote>
-<div><p>Consultants](https://docs.google.com/document/d/1F66WKf7dYEglM9tUexe5MWYtqkO8qZz1G_zGYr7dlOk/edit)]{.underline}</p>
+<div><p>Consultants](<a class="reference external" href="https://docs.google.com/document/d/1F66WKf7dYEglM9tUexe5MWYtqkO8qZz1G_zGYr7dlOk/edit">https://docs.google.com/document/d/1F66WKf7dYEglM9tUexe5MWYtqkO8qZz1G_zGYr7dlOk/edit</a>)]{.underline}</p>
 </div></blockquote>
 <ul>
 <li><p>Located in the Moffit Library</p></li>
@@ -702,24 +840,24 @@ arrangements with their CAs that fit their needs better.</p>
 </li>
 <li><p>[[Curriculum Guide &amp; Online</p>
 <blockquote>
-<div><p>Textbook]{.underline}](https://ds-modules.github.io/curriculum-guide/intro)</p>
+<div><p>Textbook]{.underline}](<a class="reference external" href="https://ds-modules.github.io/curriculum-guide/intro">https://ds-modules.github.io/curriculum-guide/intro</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Information on student help with</p>
 <blockquote>
-<div><p>courses]{.underline}](https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html)</p>
+<div><p>courses]{.underline}](<a class="reference external" href="https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html">https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html</a>)</p>
 </div></blockquote>
 </li>
 <li><p><a class="reference external" href="https://github.com/ds-connectors">[Existing Courses]{.underline}</a></p></li>
 <li><p>[[List of Previous</p>
 <blockquote>
-<div><p>Courses]{.underline}](https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html)</p>
+<div><p>Courses]{.underline}](<a class="reference external" href="https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html">https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html</a>)</p>
 </div></blockquote>
 </li>
 <li><p><a class="reference external" href="https://ds-connectors.github.io/">[Course GitHub]{.underline}</a></p></li>
 <li><p>[[Current Course</p>
 <blockquote>
-<div><p>Listings]{.underline}](https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses)</p>
+<div><p>Listings]{.underline}](<a class="reference external" href="https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses">https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses</a>)</p>
 </div></blockquote>
 </li>
 <li><p><a class="reference external" href="http://data.berkeley.edu">[DSEP Website]{.underline}</a>: includes</p>
@@ -898,23 +1036,23 @@ questions, onboarding agreement, orientation, and the contract template.</p>
 <ul>
 <li><p>[[Interview</p>
 <blockquote>
-<div><p>Questions]{.underline}](https://drive.google.com/file/d/15drDMD0IX_Ig_T-kwSlUgW0SL6ugdmYw/view?usp=sharing)</p>
+<div><p>Questions]{.underline}](<a class="reference external" href="https://drive.google.com/file/d/15drDMD0IX_Ig_T-kwSlUgW0SL6ugdmYw/view?usp=sharing">https://drive.google.com/file/d/15drDMD0IX_Ig_T-kwSlUgW0SL6ugdmYw/view?usp=sharing</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Applied Instructional DS Module: Undergraduate Curriculum</p>
 <blockquote>
 <div><p>Developer
-Agreement](https://forms.gle/mwxDenAGHksCU1jM7)]{.underline}</p>
+Agreement](<a class="reference external" href="https://forms.gle/mwxDenAGHksCU1jM7">https://forms.gle/mwxDenAGHksCU1jM7</a>)]{.underline}</p>
 </div></blockquote>
 </li>
 <li><p>[[Onboarding</p>
 <blockquote>
-<div><p>Slides]{.underline}](https://drive.google.com/file/d/1RCiqK9JqnHYlt6YwvgPz53aZ-GaFIADY/view?usp=sharing)</p>
+<div><p>Slides]{.underline}](<a class="reference external" href="https://drive.google.com/file/d/1RCiqK9JqnHYlt6YwvgPz53aZ-GaFIADY/view?usp=sharing">https://drive.google.com/file/d/1RCiqK9JqnHYlt6YwvgPz53aZ-GaFIADY/view?usp=sharing</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Contract</p>
 <blockquote>
-<div><p>Template]{.underline}](https://drive.google.com/file/d/17KLcms6XwRlarlUWRfnMG5qMCgWv1ie4/view?usp=sharing)</p>
+<div><p>Template]{.underline}](<a class="reference external" href="https://drive.google.com/file/d/17KLcms6XwRlarlUWRfnMG5qMCgWv1ie4/view?usp=sharing">https://drive.google.com/file/d/17KLcms6XwRlarlUWRfnMG5qMCgWv1ie4/view?usp=sharing</a>)</p>
 </div></blockquote>
 </li>
 </ul>
@@ -1133,23 +1271,23 @@ and other similar consultation demographics.</p>
 <ul>
 <li><p>[[Data Peer</p>
 <blockquote>
-<div><p>Consulting]{.underline}](https://data.berkeley.edu/academics/resources/peer-consulting)
+<div><p>Consulting]{.underline}](<a class="reference external" href="https://data.berkeley.edu/academics/resources/peer-consulting">https://data.berkeley.edu/academics/resources/peer-consulting</a>)
 UC Berkeley webpage</p>
 </div></blockquote>
 </li>
 <li><p>[[Data Peer Consulting Office of Research &amp; Scholarship Information</p>
 <blockquote>
-<div><p>webpage]{.underline}](https://research.berkeley.edu/data-peer-consulting)</p>
+<div><p>webpage]{.underline}](<a class="reference external" href="https://research.berkeley.edu/data-peer-consulting">https://research.berkeley.edu/data-peer-consulting</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Research IT Information</p>
 <blockquote>
-<div><p>Page]{.underline}](https://research-it.berkeley.edu/data-peer-consulting-services)</p>
+<div><p>Page]{.underline}](<a class="reference external" href="https://research-it.berkeley.edu/data-peer-consulting-services">https://research-it.berkeley.edu/data-peer-consulting-services</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Syllabus for DATA-198: Instructional Support</p>
 <blockquote>
-<div><p>Seminar]{.underline}](https://docs.google.com/document/d/1OylJ3TPiqq_u6F5jmQdeNlwEuxsZDb66NQeadEJNilI/edit)</p>
+<div><p>Seminar]{.underline}](<a class="reference external" href="https://docs.google.com/document/d/1OylJ3TPiqq_u6F5jmQdeNlwEuxsZDb66NQeadEJNilI/edit">https://docs.google.com/document/d/1OylJ3TPiqq_u6F5jmQdeNlwEuxsZDb66NQeadEJNilI/edit</a>)</p>
 </div></blockquote>
 <ul>
 <li><p>The DS Modules Program coordinator developed this course using</p>
@@ -1163,18 +1301,18 @@ Together]{.underline}</a> and
 <ul>
 <li><p>[[Design for</p>
 <blockquote>
-<div><p>Teaching]{.underline}](https://docs.google.com/presentation/d/1M6iIsMsuMFcoJF_F8ZDyGBOYlLrqu5d5sy0S1V9q6PA/edit#slide=id.g4287549921_0_6)</p>
+<div><p>Teaching]{.underline}](<a class="reference external" href="https://docs.google.com/presentation/d/1M6iIsMsuMFcoJF_F8ZDyGBOYlLrqu5d5sy0S1V9q6PA/edit#slide=id.g4287549921_0_6">https://docs.google.com/presentation/d/1M6iIsMsuMFcoJF_F8ZDyGBOYlLrqu5d5sy0S1V9q6PA/edit#slide=id.g4287549921_0_6</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Creating a Positive Learning</p>
 <blockquote>
-<div><p>Environment](https://docs.google.com/presentation/d/1bBRWwM5j3PgaVekB7QGJcY493lElhY_S3VFHxKDqeLI/edit)
+<div><p>Environment](<a class="reference external" href="https://docs.google.com/presentation/d/1bBRWwM5j3PgaVekB7QGJcY493lElhY_S3VFHxKDqeLI/edit">https://docs.google.com/presentation/d/1bBRWwM5j3PgaVekB7QGJcY493lElhY_S3VFHxKDqeLI/edit</a>)
 ]{.underline}</p>
 </div></blockquote>
 </li>
 <li><p>[[How People</p>
 <blockquote>
-<div><p>Learn]{.underline}](https://docs.google.com/presentation/d/17gGgqSx97ozodEmknY4QlESZfX1BTQx6EjKExDBfxs4/edit#slide=id.g42c2700ed2_0_248)</p>
+<div><p>Learn]{.underline}](<a class="reference external" href="https://docs.google.com/presentation/d/17gGgqSx97ozodEmknY4QlESZfX1BTQx6EjKExDBfxs4/edit#slide=id.g42c2700ed2_0_248">https://docs.google.com/presentation/d/17gGgqSx97ozodEmknY4QlESZfX1BTQx6EjKExDBfxs4/edit#slide=id.g42c2700ed2_0_248</a>)</p>
 </div></blockquote>
 </li>
 <li><p>The Advanced Jupyter Notebook workshop is done entirely from</p>
@@ -1185,7 +1323,7 @@ repository]{.underline}</a>.</p>
 </li>
 <li><p>[Student f[eedback</p>
 <blockquote>
-<div><p>form](https://drive.google.com/open?id=1wrtvf8uHRl9iTmKR8BBx5MkL06JaG0AE5Ay5GEVsN8E)]{.underline}
+<div><p>form](<a class="reference external" href="https://drive.google.com/open?id=1wrtvf8uHRl9iTmKR8BBx5MkL06JaG0AE5Ay5GEVsN8E">https://drive.google.com/open?id=1wrtvf8uHRl9iTmKR8BBx5MkL06JaG0AE5Ay5GEVsN8E</a>)]{.underline}
 (Spring 2020). We also have feedback for 2 to 3 other
 semesters, if helpful.</p>
 </div></blockquote>
@@ -1196,14 +1334,14 @@ semesters, if helpful.</p>
 </li>
 <li><p>The [[DSEP Curriculum Guide Jupyter</p>
 <blockquote>
-<div><p>Book]{.underline}](https://ds-modules.github.io/curriculum-guide/intro)
+<div><p>Book]{.underline}](<a class="reference external" href="https://ds-modules.github.io/curriculum-guide/intro">https://ds-modules.github.io/curriculum-guide/intro</a>)
 helps staff/student interns create or work on data-driven courses
 or modules. Two student interns are updating it.</p>
 </div></blockquote>
 </li>
 <li><p>Program email: [[</p>
 <blockquote>
-<div><p>ds-peer-consulting&#64;berkeley.edu](mailto:ds-peer-consulting&#64;berkeley.edu)]{.underline}</p>
+<div><p><a class="reference external" href="mailto:ds-peer-consulting&#37;&#52;&#48;berkeley&#46;edu">ds-peer-consulting<span>&#64;</span>berkeley<span>&#46;</span>edu</a>](<a class="reference external" href="mailto:ds-peer-consulting&#37;&#52;&#48;berkeley&#46;edu">mailto:ds-peer-consulting<span>&#64;</span>berkeley<span>&#46;</span>edu</a>)]{.underline}</p>
 </div></blockquote>
 </li>
 </ul>
@@ -1298,7 +1436,7 @@ workshops on web scraping, R, and other data science topics.</p>
 <ul>
 <li><p>[[Spring 2020 Foundations</p>
 <blockquote>
-<div><p>Syllabus](https://docs.google.com/document/d/1EUyagoHDGqWxhYJzENPA-9VRvKDRMMejK1s0PW3E3sE/edit)]{.underline}</p>
+<div><p>Syllabus](<a class="reference external" href="https://docs.google.com/document/d/1EUyagoHDGqWxhYJzENPA-9VRvKDRMMejK1s0PW3E3sE/edit">https://docs.google.com/document/d/1EUyagoHDGqWxhYJzENPA-9VRvKDRMMejK1s0PW3E3sE/edit</a>)]{.underline}</p>
 </div></blockquote>
 </li>
 </ul>
@@ -1421,7 +1559,7 @@ from Spring 2020</p>
 </li>
 <li><p>[[Application</p>
 <blockquote>
-<div><p>Form]{.underline}](https://docs.google.com/forms/d/e/1FAIpQLScyqO6oyiZ9DNOLVg11JNgrPMN-9gO7uZcRi9w7hFnMVyudkg/closedform)</p>
+<div><p>Form]{.underline}](<a class="reference external" href="https://docs.google.com/forms/d/e/1FAIpQLScyqO6oyiZ9DNOLVg11JNgrPMN-9gO7uZcRi9w7hFnMVyudkg/closedform">https://docs.google.com/forms/d/e/1FAIpQLScyqO6oyiZ9DNOLVg11JNgrPMN-9gO7uZcRi9w7hFnMVyudkg/closedform</a>)</p>
 </div></blockquote>
 </li>
 <li><p>Program Email [ds-discovery&#64;berkeley.edu]{.underline}</p></li>
@@ -1483,7 +1621,7 @@ you can provide.</p>
 <p>Chiu, J. L., &amp; Linn, M. C. (2011). Knowledge integration and wise
 engineering. Journal<br />
 of Pre-College Engineering Education Research (J-PEER), 1(1), Article 2.</p>
-<p>http://dx.doi.org/ 10.7771/2157-9288.1026</p>
+<p><a class="reference external" href="http://dx.doi.org/">http://dx.doi.org/</a> 10.7771/2157-9288.1026</p>
 <p>Linn, M. C. (1995). Designing computer learning environments for
 engineering and</p>
 <blockquote>
@@ -1494,7 +1632,7 @@ doi:<a class="reference external" href="https://www.researchgate.net/deref/http%
 <p>Linn, M. C. (2000). Designing the knowledge integration environment.
 International</p>
 <p>Journal of Science Education, 22(8), 781–796.</p>
-<p>http://dx.doi.org/10.1080/095006900412275</p>
+<p><a class="reference external" href="http://dx.doi.org/10.1080/095006900412275">http://dx.doi.org/10.1080/095006900412275</a></p>
 <p>Data Scholars Pathways Seminar</p>
 <p>Overview</p>
 <p>This course is one of the three sequence seminars for students in the
@@ -1594,12 +1732,12 @@ or proposing their own (with instructor approval).</p>
 <ul>
 <li><p>[[Spring 2020 Pathways</p>
 <blockquote>
-<div><p>Syllabus]{.underline}](https://docs.google.com/document/d/1bY23SDYibyCu1RF9l727hKCfObDyF_5fyjm-SUS7v2g/edit)</p>
+<div><p>Syllabus]{.underline}](<a class="reference external" href="https://docs.google.com/document/d/1bY23SDYibyCu1RF9l727hKCfObDyF_5fyjm-SUS7v2g/edit">https://docs.google.com/document/d/1bY23SDYibyCu1RF9l727hKCfObDyF_5fyjm-SUS7v2g/edit</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Spring 2018 Course</p>
 <blockquote>
-<div><p>Website]{.underline}](https://sites.google.com/berkeley.edu/pathways/home?authuser=0)</p>
+<div><p>Website]{.underline}](<a class="reference external" href="https://sites.google.com/berkeley.edu/pathways/home?authuser=0">https://sites.google.com/berkeley.edu/pathways/home?authuser=0</a>)</p>
 </div></blockquote>
 </li>
 </ul>
@@ -1701,7 +1839,7 @@ entry and the basis to develop a positive data science identity.</p>
 </li>
 <li><p>[[The Jupyter Book from Zero to Data</p>
 <blockquote>
-<div><p>8]{.underline}](http://data8.org/zero-to-data-8/intro) goes over
+<div><p>8]{.underline}](<a class="reference external" href="http://data8.org/zero-to-data-8/intro">http://data8.org/zero-to-data-8/intro</a>) goes over
 the pedagogical methods utilized in Data 8 and discusses how to
 begin teaching an introductory data science course at your
 university.</p>
@@ -1709,7 +1847,7 @@ university.</p>
 </li>
 <li><p>[[The Public</p>
 <blockquote>
-<div><p>Repository]{.underline}](https://github.com/data-8/materials-sp20)
+<div><p>Repository]{.underline}](<a class="reference external" href="https://github.com/data-8/materials-sp20">https://github.com/data-8/materials-sp20</a>)
 contains the Juptyer notebooks for the Homeworks, Labs, and
 Lectures. These materials are what the students work on through
 the course of Data 8.</p>
@@ -1718,7 +1856,7 @@ the course of Data 8.</p>
 <li><p>The course textbook, [[Computational and Inferential Thinking: The</p>
 <blockquote>
 <div><p>Foundations of Data
-Science]{.underline}](https://www.inferentialthinking.com/chapters/intro),
+Science]{.underline}](<a class="reference external" href="https://www.inferentialthinking.com/chapters/intro">https://www.inferentialthinking.com/chapters/intro</a>),
 is the textbook for Data 8 at UC Berkeley. The book is a free
 online textbook that includes interactive Jupyter notebooks and
 public data sets for all examples. The textbook source is
@@ -1728,7 +1866,7 @@ License.</p>
 </li>
 <li><p>[[Data</p>
 <blockquote>
-<div><p>8x]{.underline}](https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science)
+<div><p>8x]{.underline}](<a class="reference external" href="https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science">https://www.edx.org/professional-certificate/berkeleyx-foundations-of-data-science</a>)
 is a Massive Open Online Course (MOOC) of Data 8 offered on edX
 that increases access for Data 8 to students around the world. The
 course contains recorded pedagogy videos by Professor John Denero,
@@ -1745,7 +1883,7 @@ handbook]{.underline}</a></p>
 </li>
 <li><p>[[UC Berkeley JupyterHubs</p>
 <blockquote>
-<div><p>guide]{.underline}](https://docs.datahub.berkeley.edu/en/latest/)
+<div><p>guide]{.underline}](<a class="reference external" href="https://docs.datahub.berkeley.edu/en/latest/">https://docs.datahub.berkeley.edu/en/latest/</a>)
 contains information about all of the JupyterHubs at UC Berkeley
 and is a good reference for how our teams coordinate technical
 infrastructure across classes and resources.</p>
@@ -1759,7 +1897,7 @@ each demo and lab assignment, and readings.</p>
 </li>
 <li><p>[[YouTube collection of Spring 2016</p>
 <blockquote>
-<div><p>lectures](https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y)]{.underline}
+<div><p>lectures](<a class="reference external" href="https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y">https://www.youtube.com/playlist?list=PLFeJ2hV8Fyt7mjvwrDQ2QNYEYdtKSNA0y</a>)]{.underline}
 were hosted by the <a class="reference external" href="https://www.youtube.com/channel/UCEXfTs0jS6D_0nwf1nAeF8A/featured">[Webcast
 Department]{.underline}</a>.
 Recordings of more recent iterations are available but only 2016
@@ -1781,7 +1919,7 @@ students invited to use the course’s thread.</p>
 </li>
 <li><p>[[Information on Data</p>
 <blockquote>
-<div><p>Stack]{.underline}](https://data.berkeley.edu/academics/resources/berkeley-data-stack)
+<div><p>Stack]{.underline}](<a class="reference external" href="https://data.berkeley.edu/academics/resources/berkeley-data-stack">https://data.berkeley.edu/academics/resources/berkeley-data-stack</a>)
 shows what Berkeley focuses on.</p>
 </div></blockquote>
 </li>
@@ -2116,7 +2254,7 @@ approve undergraduate GSIs.</p>
 <p>If the department or hiring unit is not in College of Letters &amp; Science
 or College of Engineering, please complete the Request to Appoint
 Undergraduates as GSIs Form (XLS) and provide an explanation of why
-undergraduates must be hired to gradappt&#64;berkeley.edu.</p>
+undergraduates must be hired to <a class="reference external" href="mailto:gradappt&#37;&#52;&#48;berkeley&#46;edu">gradappt<span>&#64;</span>berkeley<span>&#46;</span>edu</a>.</p>
 <p>Requirements for Undergraduate GSIs:</p>
 <ul>
 <li><p>Registered in the semester in which they are teaching and remain</p>
@@ -2157,7 +2295,7 @@ GSI Teaching &amp; Resource Center for more information).
 Departments/hiring units are responsible for making sure the
 student has passed the English Proficiency requirements prior to
 requesting approval for the UGSI appointment. Please contact
-langpro&#64;berkeley.edu with questions about a student’s English
+<a class="reference external" href="mailto:langpro&#37;&#52;&#48;berkeley&#46;edu">langpro<span>&#64;</span>berkeley<span>&#46;</span>edu</a> with questions about a student’s English
 language proficiency eligibility.</p>
 </div></blockquote>
 </li>
@@ -2318,27 +2456,27 @@ seminars offer an introduction to data science careers and research.</p>
 <ul>
 <li><p>Data Scholars [[</p>
 <blockquote>
-<div><p>Website](https://data.berkeley.edu/academics/resources/data-scholars)]{.underline}</p>
+<div><p>Website](<a class="reference external" href="https://data.berkeley.edu/academics/resources/data-scholars">https://data.berkeley.edu/academics/resources/data-scholars</a>)]{.underline}</p>
 </div></blockquote>
 </li>
 <li><p>[[Article posted about the launch of Data</p>
 <blockquote>
-<div><p>Scholars]{.underline}](https://data.berkeley.edu/news/berkeleys-data-scholars-next-gen-data-scientists)</p>
+<div><p>Scholars]{.underline}](<a class="reference external" href="https://data.berkeley.edu/news/berkeleys-data-scholars-next-gen-data-scientists">https://data.berkeley.edu/news/berkeleys-data-scholars-next-gen-data-scientists</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Spring 2020 Data Scholars</p>
 <blockquote>
-<div><p>Application]{.underline}](https://forms.gle/bqSkPGirTugZ9KBAA)</p>
+<div><p>Application]{.underline}](<a class="reference external" href="https://forms.gle/bqSkPGirTugZ9KBAA">https://forms.gle/bqSkPGirTugZ9KBAA</a>)</p>
 </div></blockquote>
 </li>
 <li><p>Data Scholars Facilitator [[Job</p>
 <blockquote>
-<div><p>Description]{.underline}](https://docs.google.com/document/d/1wnPUDqCA0BK8vbkntlG3VQAqwA2vFEIa9Cyon7r1-eM/edit)</p>
+<div><p>Description]{.underline}](<a class="reference external" href="https://docs.google.com/document/d/1wnPUDqCA0BK8vbkntlG3VQAqwA2vFEIa9Cyon7r1-eM/edit">https://docs.google.com/document/d/1wnPUDqCA0BK8vbkntlG3VQAqwA2vFEIa9Cyon7r1-eM/edit</a>)</p>
 </div></blockquote>
 </li>
 <li><p>[[Foundations Set-Up</p>
 <blockquote>
-<div><p>Guidance]{.underline}](https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit)</p>
+<div><p>Guidance]{.underline}](<a class="reference external" href="https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit">https://docs.google.com/document/d/1yVivmW_8_6vLeirFp7WDEoWRC2gwPwFq3USV_FZQHHY/edit</a>)</p>
 </div></blockquote>
 </li>
 </ul>
@@ -2397,7 +2535,7 @@ science, etc)</p>
 <ul>
 <li><p>[[Spring 2020 Data Scholars Discovery</p>
 <blockquote>
-<div><p>Syllabus]{.underline}](https://docs.google.com/document/d/1U19zT0CnZq6CUTFgabr4GSXGJntU0Agplj6wwLnKA2Y/edit)</p>
+<div><p>Syllabus]{.underline}](<a class="reference external" href="https://docs.google.com/document/d/1U19zT0CnZq6CUTFgabr4GSXGJntU0Agplj6wwLnKA2Y/edit">https://docs.google.com/document/d/1U19zT0CnZq6CUTFgabr4GSXGJntU0Agplj6wwLnKA2Y/edit</a>)</p>
 </div></blockquote>
 </li>
 </ul>
@@ -2415,8 +2553,8 @@ Across Institutions</p>
 <p>[ ]{.underline} Start indented.</p>
 <p>Recommendations</p>
 <p>Start indented.</p>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -2440,34 +2578,34 @@ Across Institutions</p>
 
               </div>
               
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
         </div>
     </div>
-    
-    
-    <div class='prev-next-bottom'>
-        
-
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By D-Lab, University of California, Berkeley<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
     </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By The Jupyter Book Community<br/>
-        
-            &copy; Copyright 2020.<br/>
-      </p>
-    </div>
-  </footer>
-</main>
+    
+</div>
 
 
       </div>
     </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 
-    
-  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
 
-
-    
   </body>
 </html>
