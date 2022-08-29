@@ -1,7 +1,7 @@
-Data Science Discovery Projects
+# Data Science Discovery Projects
 ===========================================
 
-Overview
+## Overview
 
 The Data Science Discovery Program connects undergraduates with
 hands-on, team-based opportunities to contribute to data research
@@ -27,7 +27,7 @@ the opportunity to build and apply data science skills and at the same
 time to provide collaborators with skilled students to help address
 their data challenges.
 
-Target Audience
+## Target Audience
 
 The Data Science Discovery Experiences model seeks to identify, connect,
 and scale access for undergraduate students, usually in their 3rd
@@ -43,7 +43,7 @@ making research accessible to students. Social Impact efforts with
 non-profit community groups offer the opportunity to help address
 critical community issues.
 
-Goals
+## Goals
 
 This program provides hands-on data science training and research
 experience for undergraduate students, irrespective of major while
@@ -53,7 +53,7 @@ The discovery projects build connections via data science between campus
 stakeholders/units and research partnerships with community social
 impact organizations.
 
-Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies
 
 This program uses active co-construction of cooperative learning (Chiu &
 Linn 2011; Linn, 1995, 2000) by allowing students to work on genuine
@@ -63,7 +63,7 @@ undergraduates in near-peer teaching, as students work in small groups
 matched with projects based on their interests then enhances the
 opportunity for students for their professional network.
 
-Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies
 
 The Division of Computing, Data Science, and Society---of which the Data
 Science Discovery Projects program is a part---is committed to making
@@ -95,7 +95,7 @@ process helps teams prioritize potential members with a passion for the
 field and a belief in a growth mindset over pure technical skills and
 experience.
 
-Links to Key Cyber Resources
+## Links to Key Cyber Resources
 
 -   Discovery Projects program
     > [[website]{.underline}](https://discovery.berkeley.edu/home)
@@ -122,7 +122,7 @@ applied knowledge. Being a part of a Discovery Project team brings
 students into direct contact with organizations that require assistance
 with data science problems.
 
-Example
+## Example
 
 Spring 2020 [[Project
 Listings]{.underline}](https://data.berkeley.edu/discovery-project-list/spring-2020-discovery-projects)
@@ -154,14 +154,14 @@ height="2.6406255468066493in"}
 generated](media/media/image6.png){width="5.166666666666667in"
 height="2.8958333333333335in"}
 
-Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions
 
 Currently, at Berkeley, \~ 30% of the interested 300--400 students are
 matched with projects. Important factors to consider include (a) a
 robust database (with an underlying matching algorithm), (b) having
 staff to aid with the matching process, and (c) partner outreach.
 
-Other Implementation Notes
+## Other Implementation Notes
 
 For partners, there are a few requests that they consider: (a) the level
 of support your project needs, and (b) the level of support/mentorship
@@ -181,7 +181,7 @@ Level of support/mentorship you can provide
 -   Create infrastructure for your students with specific tasks and
     > goals, clear expectations, and progress tracking.
 
-References
+## References
 
 Chiu, J. L., & Linn, M. C. (2011). Knowledge integration and wise
 engineering. Journal\

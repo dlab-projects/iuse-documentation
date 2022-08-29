@@ -150,7 +150,7 @@ Links to Key Cyber Resources and their Implementation
 -   [Information on Data Stack](https://data.berkeley.edu/academics/resources/berkeley-data-stack)
     shows what Berkeley focuses on.
 
-Other Key Inputs
+## Other Key Inputs
 
 Smaller lab sections for two hours with Undergraduate Instructors and
 Instructor Office Hours are available. They require signing up but are
@@ -176,7 +176,7 @@ economic data, document collections, geographical data, and social
 networks. It delves into social issues surrounding data analysis, such
 as privacy and design.
 
-## Best Practices for Success/Variation Across Institutions
+## Best Practices for Success/ Variation Across Institutions
 
 Institutions using different course management systems may need to
 adjust some of the cyberinfrastructures. The digital infrastructure of

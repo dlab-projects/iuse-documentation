@@ -1,7 +1,7 @@
-Data Science Modules
+# Data Science Modules
 ===========================
 
-Overview
+## Overview
 --------
 
 Data Science Modules ("DS Modules") are short explorations into data
@@ -38,18 +38,18 @@ learn to process data in real-time, write and execute code, make
 visualizations, develop analytical skills, and learn to apply these
 skills to their relevant field or course work.
 
-Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies
 
 DS Modules vary widely and are customized based on each instructor's
 objectives and course content. A DS Module might simply be one or two
 lectures on how to interpret data and statistics in news media reports
 or a multiple-session research workshop for students working on a
 data-centered project. Students in DS Modules learn to use the
-[[Python]{.underline}](https://www.python.org/) programming language and
+[[Python]](https://www.python.org/) programming language and
 complete assignments in [[Jupyter
-Notebooks]{.underline}](http://jupyter.org/), both gold-standard data
+Notebooks]](http://jupyter.org/), both gold-standard data
 science tools used in the [[Data Science Undergraduate
-Studies]{.underline}](https://data.berkeley.edu/academics/undergraduate-programs).
+Studies]](https://data.berkeley.edu/academics/undergraduate-programs).
 Instructors use these tools to share data with students, assign homework
 and write instructions in the cloud-based notebook, and then ask for
 students' interpretation of the results, all within the same
@@ -115,7 +115,7 @@ if the Notebooks are not regularly updated, then there is a loss of
 efficiency. It is important to have a regular schedule to refresh the
 materials and to ensure they continue to be a helpful resource.
 
-*Training & Outreach *
+*Training & Outreach*
 
 The DS Modules Program Coordinator executes a flow of data science
 instruction and recruitment for the DS Modules program. It can begin
@@ -128,21 +128,21 @@ preparation and implementation methods.
 
 The Data Science Undergraduate Studies at Berkeley has created a
 [[Curriculum
-Guide](https://github.com/ds-modules/modules-textbook)]{.underline} to
+Guide](https://github.com/ds-modules/modules-textbook)] to
 help instructors with set-up, workflow, and pedagogy in teaching data
 sciences courses connected to Data 8. Much of the content in the
 [[Curriculum
-Guide]{.underline}](https://github.com/ds-modules/modules-textbook) is
+Guide]](https://github.com/ds-modules/modules-textbook) is
 useful for instructors teaching with Jupyter Notebooks and JupyterHub
 deployments.
 
 Program representatives speak at the [[Academic Innovations
-Studio]{.underline}](https://ais.berkeley.edu/home), a campus space that
+Studio]](https://ais.berkeley.edu/home), a campus space that
 supports pedagogy through the collaboration of faculty, researchers,
 graduate students, and staff. The organization is part of [[Research,
-Teaching, and Learning]{.underline}](https://rtl.berkeley.edu/), a
+Teaching, and Learning]](https://rtl.berkeley.edu/), a
 larger organization that also houses the [[ Research
-IT](https://research-it.berkeley.edu/)]{.underline} group.
+IT](https://research-it.berkeley.edu/)] group.
 
 The [Data Science Undergraduate Studies](https://data.berkeley.edu/) is
 continuously looking for faculty interested in developing a DS Module
@@ -163,7 +163,7 @@ science tools to students who may otherwise never have the opportunity.
 DS Modules have been taught to everyone from first-year students with no
 coding or statistics experience to seniors taking upper-division
 econometrics. The [[Data Science Undergraduate
-Studies]{.underline}](https://data.berkeley.edu/) has developed Data
+Studies]](https://data.berkeley.edu/) has developed Data
 Science Modules for courses in:
 
 -   Sociology
@@ -207,19 +207,19 @@ Science Modules for courses in:
 -   Sociology
 
 The [[Data Science Undergraduate
-Studies]{.underline}](https://data.berkeley.edu/) partner with D-Lab,
+Studies]](https://data.berkeley.edu/) partner with D-Lab,
 and often collaborate with [[Cal
-NERDS]{.underline}](https://calnerds.berkeley.edu/), an organization
+NERDS]](https://calnerds.berkeley.edu/), an organization
 that is "comprised of a suite of programs and initiatives that provide
 faculty-mentored research opportunities, specialized tech training,
 graduate school preparation, career coaching, community building, and
 professional development to high achieving STEM undergraduates and
 graduate students." [[Cal
-NERDS](https://calnerds.berkeley.edu/)]{.underline} gain expertise,
+NERDS](https://calnerds.berkeley.edu/)] gain expertise,
 build community, and contribute to the STEM workforce.
 
 The DS Modules team works with [[the Summer Bridge
-Program]{.underline}](https://slc.berkeley.edu/summer-bridge) to
+Program]](https://slc.berkeley.edu/summer-bridge) to
 increase the diversity of UC Berkeley students working on DS Module
 development. The Summer Bridge program is a six-week, academic
 residential program, serving 300+ entering undergraduates every summer.
@@ -228,14 +228,14 @@ a mentorship program that acclimates students to the research
 university.
 
 The [[Data Science Undergraduate
-Studies]{.underline}](https://data.berkeley.edu/education/data-science-education-opportunities)
+Studies]](https://data.berkeley.edu/education/data-science-education-opportunities)
 is working to get High School students involved through a summer
 program. This program is currently being developed by \_\_\_\_\_\_.
 
 Given that all UC Berkeley undergraduates have an American Cultures
 graduation requirement, there has been a big push to develop DS Modules
 within [[American
-Cultures]{.underline}](https://americancultures.berkeley.edu/students/courses)
+Cultures]](https://americancultures.berkeley.edu/students/courses)
 classes. This provides another great opportunity to expand data science
 approaches into topic areas that have not traditionally employed them.
 This collaboration has produced a portfolio of social justice DS Modules
@@ -255,76 +255,68 @@ semester. This DS Module explored prison overcrowding and realignment
 data. In a full cycle of its development and implementation, this
 studentled the DS Module in the class for its initial deployment.
 
-Links to Key Cyber Resources
+## Links to Key Cyber Resources
 
 -   Data Science DS Modules
-    > [[website]{.underline}](https://data.berkeley.edu/education/modules)
+     [[website]](https://data.berkeley.edu/education/modules)
 
 -   Data Science Modules informational
-    > [[GitHub]{.underline}](https://ds-modules.github.io/)
+     [[GitHub]](https://ds-modules.github.io/)
 
--   [[Course Listings]{.underline}](https://github.com/ds-modules)
+-   [[Course Listings]](https://github.com/ds-modules)
 
--   [[GitHub]{.underline}](https://github.com/ds-modules): Jupyter
-    > notebooks are developed and stored. The public materials are for
-    > students. The private materials are for the faculty and GSIs.
+-   [[GitHub]](https://github.com/ds-modules): Jupyter
+     notebooks are developed and stored. The public materials are for
+     students. The private materials are for the faculty and GSIs.
 
     -   Answer Keys and information for instructors is kept behind a
-        > password online on GitHub
+         password online on GitHub
 
 -   [[Deployment
-    > Calendar]{.underline}](https://calendar.google.com/calendar/embed?src=berkeley.edu_gka2us8b56n33cqvch528gt650%40group.calendar.google.com&ctz=America%2FLos_Angeles)
+     Calendar]](https://calendar.google.com/calendar/embed?src=berkeley.edu_gka2us8b56n33cqvch528gt650%40group.calendar.google.com&ctz=America%2FLos_Angeles)
 
 -   [[Data Peer
-    > Consultants](https://docs.google.com/document/d/1F66WKf7dYEglM9tUexe5MWYtqkO8qZz1G_zGYr7dlOk/edit)]{.underline}
+     Consultants](https://docs.google.com/document/d/1F66WKf7dYEglM9tUexe5MWYtqkO8qZz1G_zGYr7dlOk/edit)]
 
     -   Located in the Moffit Library
 
     -   They can assist GSIs if they are not comfortable with the DS
-        > Module's content.
+         Module's content.
 
     -   DS Module students can work with a Data Peer Consultant during
-        > their [[drop-in hours from 11am to 4pm on Monday through
-        > Friday]{.underline}](https://berkeley.zoom.us/j/7296681990?status=success)
-        > or [[access them
-        > online]{.underline}](https://data.berkeley.edu/consulting).
+         their [[drop-in hours from 11am to 4pm on Monday through
+         Friday]](https://berkeley.zoom.us/j/7296681990?status=success)
+         or [[access them
+         online]](https://data.berkeley.edu/consulting).
 
     -   The DS Modules Program will alert the peer consultants at
-        > Moffitt before the DS Module's deployment so that they can
-        > prepare to serve as alternative office hours.
+         Moffitt before the DS Module's deployment so that they can
+         prepare to serve as alternative office hours.
 
 -   Publicity
 
     -   Building Data Science Education Together
-        > [[article]{.underline}](https://data.berkeley.edu/news/building-data-science-education-together)
+         [[article]](https://data.berkeley.edu/news/building-data-science-education-together)
 
-    -   [[Short Video]{.underline}](https://youtu.be/6J_bvxWXibM)
-        > explaining DS Modules
+    -   [[Short Video]](https://youtu.be/6J_bvxWXibM)
+         explaining DS Modules
 
-Examples
+## Examples
 
 Course listing on UCB DSEP
-[[GitHub]{.underline}](https://ds-modules.github.io/DS-Modules/)![](media/media/image2.png){width="6.5in"
-height="1.6111111111111112in"}
+[[GitHub]](https://ds-modules.github.io/DS-Modules/)![](media/media/image2.png)
 
 Course GitHub
-[[website]{.underline}](https://github.com/ds-modules/PSYCH-167AC)
+[[website]](https://github.com/ds-modules/PSYCH-167AC)
 
-![](media/media/image16.png){width="6.5in"
-height="1.2916666666666667in"}
+![](media/media/image16.png)
 
 Course DataHub
-[[website]{.underline}](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](media/media/image19.png){width="5.003968722659668in"
-height="3.5364588801399823in"}
+[[website]](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](media/media/image19.png)
 
 Course Binder
-[[website]{.underline}](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master)
+[[website]](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master)
 
-![](media/media/image9.png){width="4.842791994750656in"
-height="3.0677088801399823in"}
+![](media/media/image9.png)
 
-![Graphical user interface, text, application Description automatically
-generated](media/media/image15.png){width="2.3020833333333335in"
-height="1.71875in"}![Diagram Description automatically
-generated](media/media/image20.png){width="2.15625in"
-height="1.5208333333333333in"}
+
