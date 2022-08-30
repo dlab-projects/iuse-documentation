@@ -1,7 +1,11 @@
-Domain Connector Courses
+![Graphical user interface, text, application Description automatically
+generated](media/media/image15.png)![Diagram Description automatically
+generated](media/media/image20.png)
+
+# Domain Connector Courses
 =================================
 
-Overview
+## Overview
 
 The Domain Connector Courses program weaves together core concepts and
 approaches from Data 8 with complementary ideas or areas. These courses
@@ -14,7 +18,7 @@ across campus. The Connector Courses program are semester-long courses
 within a domain area, while the Data Science Modules are shorter lessons
 within an existing course.
 
-Program Description
+## Program Description
 
 The Connector Courses bring together domain-specific instruction and
 outreach to faculty and instructors interested in doing the curriculum
@@ -29,12 +33,12 @@ a Connector Course with specific and accessible information.
 The Connector Courses program has two facets:
 
 -   The undergraduate data science student development along with the
-    > implementation of the curriculum by faculty and graduate students
+    implementation of the curriculum by faculty and graduate students
 
 -   The undergraduate data science student experience in applying data
-    > science
+    science
 
-Target Audience
+## Target Audience
 
 The Domain Connector Courses are an opportunity for students looking to
 explore a specific domain area (in a two-unit seminar) that is
@@ -43,7 +47,7 @@ These courses are intended to be taken in the same semester as the
 Foundations Course, although many students also take them after they
 have taken the Foundations Course.
 
-Goals
+## Goals
 
 A Connector Course allows students to weave together core concepts and
 strategies from the Foundations Course with complementary class topics.
@@ -53,7 +57,7 @@ across campus teach Domain Connector Courses. Data 8 and Connectors
 complement each other and often use similar materials, tools, and course
 infrastructure (e.g., DataHub, Piazza, Jupyter Notebooks).
 
-Key Pedagogical or Curricular Strategies
+## Key Pedagogical or Curricular Strategies
 
 Connector Courses are based on active learning as students navigate data
 science methodologies in class. Active learning is a method of learning
@@ -66,22 +70,22 @@ examples or those they have found pertaining to a specific field or
 sector.
 
 Because the [[Undergraduate Student Instructors
-(UGSIs)]{.underline}](https://eecs.berkeley.edu/resources/gsis/prospective/ugsi)
+(UGSIs)]](https://eecs.berkeley.edu/resources/gsis/prospective/ugsi)
 are a part of the support network, there is also a very deliberate and
 consistent near-peer learning model in action throughout the classes.
 UGSIs are students that (a) have already taken the course and received a
 high mark, (b) are in good academic standing, and (c) enroll in or have
 taken a pedagogy class. Student instructors who assist with Connector
-Courses are called *Connector Assistants* (CA).
+Courses are called Connector Assistants (CA).
 
 The courses use open-source [[Jupyter
-Notebooks]{.underline}](https://jupyter.org/) with materials stored and
+Notebooks]](https://jupyter.org/) with materials stored and
 made accessible on GitHub. A Connector Course's GitHub site includes
 materials accessible to the students as well as private, locked
 materials, such as homework solutions and exam answer keys, that are
 only accessible to the faculty and CAs.
 
-Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies
 
 The diverse courses allow for students across general interests to take
 classes together. For example, a psychology student could take a
@@ -116,42 +120,42 @@ tasks of the CA will be to attend class and hold one office hour per
 week. The instructors are fully encouraged to work out alternative
 arrangements with their CAs that fit their needs better.
 
-Links to Key Cyber Resources
+## Links to Key Cyber Resources
 
 -   Domain Connector Course
-    > [[GitHub]{.underline}](https://ds-connectors.github.io/)
+    [[GitHub]](https://ds-connectors.github.io/)
 
 -   Domain Connector Course
-    > [[website]{.underline}](https://data.berkeley.edu/education/connectors)
+    [[website]](https://data.berkeley.edu/education/connectors)
 
 -   Frequently asked Questions
-    > [[website]{.underline}](https://data.berkeley.edu/connector-faqs)
+    [[website]](https://data.berkeley.edu/connector-faqs)
 
 -   [[Curriculum Guide & Online
-    > Textbook]{.underline}](https://ds-modules.github.io/curriculum-guide/intro)
+    Textbook]](https://ds-modules.github.io/curriculum-guide/intro)
 
 -   [[Information on student help with
-    > courses]{.underline}](https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html)
+    courses]](https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html)
 
--   [[Existing Courses]{.underline}](https://github.com/ds-connectors)
+-   [[Existing Courses]](https://github.com/ds-connectors)
 
 -   [[List of Previous
-    > Courses]{.underline}](https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html)
+    Courses]](https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html)
 
--   [[Course GitHub]{.underline}](https://ds-connectors.github.io/)
+-   [[Course GitHub]](https://ds-connectors.github.io/)
 
 -   [[Current Course
-    > Listings]{.underline}](https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses)
+    Listings]](https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses)
 
--   [[DSEP Website]{.underline}](http://data.berkeley.edu): includes
-    > links to information
+-   [[DSEP Website]](http://data.berkeley.edu): includes
+    links to information
 
 The non-public documents are in private repositories for some of the
 connector courses. The faculty make them restricted to store the answer
 keys, etc. Therefore, there can be two repositories for each class. One
 is available to everyone and one is kept private for instructors.
 
-An example of a Domain Connector Course
+## An example of a Domain Connector Course
 
 Faculty select how to share their course materials (syllabus, slides,
 etc). This may include:
@@ -166,26 +170,24 @@ The following are a series of materials used to publicize and implement
 the course *Data Science and the Mind.*
 
 This is the listing on the Data Science Connector Courses
-[[website]{.underline}](https://data.berkeley.edu/education/connectors).
+[[website]](https://data.berkeley.edu/education/connectors).
 
-![](media/media/image1.png){width="6.5in" height="0.7222222222222222in"}
+![](media/media/image1.png)
 
 Expanded Listing
-[[website]{.underline}](https://data.berkeley.edu/data-science-and-mind-cogsci-88)
+[[website]](https://data.berkeley.edu/data-science-and-mind-cogsci-88)
 
 [![Text Description automatically
-generated](media/media/image17.png){width="6.400655074365704in"
-height="2.3489588801399823in"}](https://data.berkeley.edu/crime-and-punishment-taking-measure-us-justice-system)
+generated](media/media/image17.png)](https://data.berkeley.edu/crime-and-punishment-taking-measure-us-justice-system)
 
 GitHub
-[[website]{.underline}](https://github.com/ds-connectors/COGSCI-88)
+[[website]](https://github.com/ds-connectors/COGSCI-88)
 course listing
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image5.png){width="6.5in"
-height="1.1388888888888888in"}
+generated](media/media/image5.png)
 
-Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions
 
 Each replication campus will need to carefully examine and support the
 development of partnerships based on the interest of instructors and
@@ -207,24 +209,24 @@ related to the Connector Course. Here is how we have broken down these
 
 -   15 weeks x 1 hour weekly = 15 hours of office hours or lab prep
 
-Other Implementation Notes
+## Other Implementation Notes
 
 -   At UC Berkeley, there is an early summer workshop for instructors
-    > and then biweekly meetings for Connector instructors. The workshop
-    > and meetings cover Piazza for instructors, a teaching guide for
-    > first-time Domain Connector Course instructors, and allow for the
-    > creation of a cohort of people who are now more familiar with one
-    > another each year.
+    and then biweekly meetings for Connector instructors. The workshop
+    and meetings cover Piazza for instructors, a teaching guide for
+    first-time Domain Connector Course instructors, and allow for the
+    creation of a cohort of people who are now more familiar with one
+    another each year.
 
 -   Some of these courses have been developed and can replace other
-    > required courses for students in specific departments. Examples
-    > include:
+    required courses for students in specific departments. Examples
+    include:
 
     -   Computer Science 88 can be taken instead of Computer Science 61A
 
     -   Statistics 89 can be taken instead of Math 54
 
-Recommendations
+## Recommendations
 
 There is a need for strong inter-departmental connections throughout the
 university. One way to address this concern is to collect data about how
@@ -252,7 +254,3 @@ have more data science knowledge than tenured faculty and may be more
 motivated to develop a new course. A system to either recognize or
 compensate these para-academic instructors could speed up the
 development process.
-
-What is the process for becoming a Connector instructor?
-
-What are the criteria to accept a new course or not?
