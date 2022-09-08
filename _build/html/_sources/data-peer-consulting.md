@@ -1,7 +1,10 @@
-Data Peer Consulting
+![Icon Description automatically
+generated](media/media/image12.png)
+
+# Data Peer Consulting
 ============================
 
-Overview
+## Overview
 
 Data Peer Consulting is a program that supports data science work across
 campus. The Data Peer Consultants offer meetings with students,
@@ -16,11 +19,11 @@ throughout the academic year with an online calendar that displays both
 the scheduled drop-in times and the peer consultant, along with the
 designated location on the third floor of the undergraduate library or
 the online meeting Zoom Link. This project began in Fall 2017 as a
-collaboration between the [[Center for Connected Learning]{.underline}
+collaboration between the [[Center for Connected Learning]
 (the learning floor of spaces in the student library to support varying
 sensory needs and forms of hands-on
 learning)](http://stories.lib.berkeley.edu/ccl/),
-[[D-Lab]{.underline}](http://dlab.berkeley.edu/), and the Division of
+[[D-Lab]](http://dlab.berkeley.edu/), and the Division of
 Computing, Data Science, and Society. Currently, a total of sixteen
 students are involved in the program. Two of these students serve as
 *Data Peer Consulting Leads* who oversee student meetings and
@@ -39,7 +42,7 @@ about scheduling other appointment times. A consultation typically lasts
 from fifteen to thirty minutes. Hour-long consultation may occur but are
 not typical.
 
-Target Audience
+## Target Audience
 
 Because the Data Peer Consulting is physically located in a public
 library space, it can reach the broader campus community of students.
@@ -50,7 +53,7 @@ primary audience is students who are not majoring in data science. The
 Data Peer Consulting program aims to support students from a wide range
 of domains who have data science questions.
 
-Goals
+## Goals
 
 Overall, the primary goal of Data Peers is to support students' data
 science work across campus. Data Peers is a drop-in support network for
@@ -65,7 +68,7 @@ opportunity to work closely with the campus community. Students have
 hands-on experience that can build students' resumes, offer course
 credit, and then a paid position through increased leadership.
 
-Pedagogical and Curricular Strategies
+## Pedagogical and Curricular Strategies
 
 The conceptual framework for this program includes:
 
@@ -76,7 +79,7 @@ The conceptual framework for this program includes:
 -   Crossover learning (the library as an informal space),
 
 -   Distributed Learning Environments (practice across time and physical
-    > areas, see Roediger III & Pyc, 2012)
+     areas, see Roediger III & Pyc, 2012)
 
 As part of their training, the Data Peer student consultants all enroll
 in a pedagogical course, DATA-198 (a curriculum developed from combining
@@ -103,7 +106,7 @@ when they need assistance from other Data Peers. The students
 participate as part of the course the first year and receive pay for
 subsequent semesters.
 
-Key Diversity and Inclusion Practices and Strategies
+## Key Diversity and Inclusion Practices and Strategies
 
 As part of the DATA-198 course, students learn about stereotype threat,
 imposter syndrome, and tone of setting their learning environment. Many
@@ -111,63 +114,63 @@ students express their desire to become involved because they want to
 join the existing community space of the Division of Computing, Data
 Science, and Society.
 
-Cyber Resources
+## Cyber Resources
 
 Students collect records regarding consultations as people drop-in. The
 service user fills out a form online. Consultees enter their names,
 department, the time, the kind of question they need assistance with,
 and other similar consultation demographics.
 
-Links to Key Documents
+## Links to Key Documents
 
 -   [[Data Peer
-    > Consulting]{.underline}](https://data.berkeley.edu/academics/resources/peer-consulting)
-    > UC Berkeley webpage
+     Consulting]](https://data.berkeley.edu/academics/resources/peer-consulting)
+     UC Berkeley webpage
 
 -   [[Data Peer Consulting Office of Research & Scholarship Information
-    > webpage]{.underline}](https://research.berkeley.edu/data-peer-consulting)
+     webpage]](https://research.berkeley.edu/data-peer-consulting)
 
 -   [[Research IT Information
-    > Page]{.underline}](https://research-it.berkeley.edu/data-peer-consulting-services)
+     Page]](https://research-it.berkeley.edu/data-peer-consulting-services)
 
 -   [[Syllabus for DATA-198: Instructional Support
-    > Seminar]{.underline}](https://docs.google.com/document/d/1OylJ3TPiqq_u6F5jmQdeNlwEuxsZDb66NQeadEJNilI/edit)
+     Seminar]](https://docs.google.com/document/d/1OylJ3TPiqq_u6F5jmQdeNlwEuxsZDb66NQeadEJNilI/edit)
 
     -   The DS Modules Program coordinator developed this course using
-        > [[Teaching Tech
-        > Together]{.underline}](https://teachtogether.tech/) and
-        > [[Carpentries]{.underline}](https://carpentries.github.io/instructor-training/).
+         [[Teaching Tech
+         Together]](https://teachtogether.tech/) and
+         [[Carpentries]](https://carpentries.github.io/instructor-training/).
 
     -   Instructional Google Slides
 
         -   [[Design for
-            > Teaching]{.underline}](https://docs.google.com/presentation/d/1M6iIsMsuMFcoJF_F8ZDyGBOYlLrqu5d5sy0S1V9q6PA/edit#slide=id.g4287549921_0_6)
+             Teaching]](https://docs.google.com/presentation/d/1M6iIsMsuMFcoJF_F8ZDyGBOYlLrqu5d5sy0S1V9q6PA/edit#slide=id.g4287549921_0_6)
 
         -   [[Creating a Positive Learning
-            > Environment](https://docs.google.com/presentation/d/1bBRWwM5j3PgaVekB7QGJcY493lElhY_S3VFHxKDqeLI/edit)
-            > ]{.underline}
+             Environment](https://docs.google.com/presentation/d/1bBRWwM5j3PgaVekB7QGJcY493lElhY_S3VFHxKDqeLI/edit)
+             ]
 
         -   [[How People
-            > Learn]{.underline}](https://docs.google.com/presentation/d/17gGgqSx97ozodEmknY4QlESZfX1BTQx6EjKExDBfxs4/edit#slide=id.g42c2700ed2_0_248)
+             Learn]](https://docs.google.com/presentation/d/17gGgqSx97ozodEmknY4QlESZfX1BTQx6EjKExDBfxs4/edit#slide=id.g42c2700ed2_0_248)
 
         -   The Advanced Jupyter Notebook workshop is done entirely from
-            > the [[GitHub
-            > repository]{.underline}](https://github.com/ktakimoto/modules-ipynb/).
+             the [[GitHub
+             repository]](https://github.com/ktakimoto/modules-ipynb/).
 
         -   [Student f[eedback
-            > form](https://drive.google.com/open?id=1wrtvf8uHRl9iTmKR8BBx5MkL06JaG0AE5Ay5GEVsN8E)]{.underline}
-            > (Spring 2020). We also have feedback for 2 to 3 other
-            > semesters, if helpful.
+             form](https://drive.google.com/open?id=1wrtvf8uHRl9iTmKR8BBx5MkL06JaG0AE5Ay5GEVsN8E)]
+             (Spring 2020). We also have feedback for 2 to 3 other
+             semesters, if helpful.
 
 -   The [[DSEP Curriculum Guide Jupyter
-    > Book]{.underline}](https://ds-modules.github.io/curriculum-guide/intro)
-    > helps staff/student interns create or work on data-driven courses
-    > or modules. Two student interns are updating it.
+     Book]](https://ds-modules.github.io/curriculum-guide/intro)
+     helps staff/student interns create or work on data-driven courses
+     or modules. Two student interns are updating it.
 
 -   Program email: [[
-    > ds-peer-consulting\@berkeley.edu](mailto:ds-peer-consulting@berkeley.edu)]{.underline}
+     ds-peer-consulting\@berkeley.edu](mailto:ds-peer-consulting@berkeley.edu)]
 
-Program Description
+## Program Description
 
 The Data Peer Consulting program provides students and faculty across
 campus assistance with data science work through a drop-in table at the
@@ -187,7 +190,7 @@ programming at UC Berkeley where students can gain hands-on skills using
 and trouble-shooting data science issues on campus. They had about 100
 help requests last year.
 
-Best Practices for Variation Across Institutions
+## Best Practices for Variation Across Institutions
 
 Other institutions need to think critically about how to train the data
 peers (the use of DATA-198 materials). They can ensure the compatibility
