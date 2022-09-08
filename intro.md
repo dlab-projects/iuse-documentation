@@ -1,4 +1,4 @@
-#Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education 
+## Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education 
 =============================================
 
 Unique to the University of California, Berkeley’s Data Science Education development has been our DataHub Cyberinfrastructure and Autograding Cyberinfrastructure. The campus community enables full access to data science environments through any device capable of running a web browser connected to the internet. This alleviated the burden and inequity of requiring students to upgrade their personal computing devices to a minimum standard which would have been a barrier to widespread student participation.  The autograder is an essential component of any scalable computation-centered course that includes graded assignments. Otter Grader is used for autograding. 
