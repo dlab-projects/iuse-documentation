@@ -1,0 +1,800 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Domain Connector Courses &#8212; NSF IUSE Documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Cyberinfrastructure" href="cyberinfrastructure.html" />
+    <link rel="prev" title="Foundations of Data Science Course" href="foundations-of-data-science-course.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">NSF IUSE Documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    ##Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="foundations-of-data-science-course.html">
+   Foundations of Data Science Course
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Domain Connector Courses
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cyberinfrastructure.html">
+   Cyberinfrastructure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter-notebook-development-team.html">
+   Jupyter Notebook Development Team
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-peer-consulting.html">
+   Data Peer Consulting
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="data-scholars-program.html">
+   Data Scholars Program
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="data-scholars-discovery-projects-seminar.html">
+     Data Scholars Discovery Projects Seminar
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="data-science-discovery-projects.html">
+       Data Science Discovery Projects
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-foundations-seminar.html">
+     Data Scholars Foundations Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-pathways-seminar.html">
+     Data Scholars Pathways Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-science-modules.html">
+     Data Science Modules
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="undergraduate-student-instructors.html">
+   Undergraduate Student Instructors
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdomain-connector-courses.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/domain-connector-courses.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#program-description">
+   Program Description
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#target-audience">
+   Target Audience
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-pedagogical-or-curricular-strategies">
+   Key Pedagogical or Curricular Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-diversity-and-inclusion-practices-and-strategies">
+   Key Diversity and Inclusion Practices and Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links-to-key-cyber-resources">
+   Links to Key Cyber Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-example-of-a-domain-connector-course">
+   An example of a Domain Connector Course
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#best-practices-for-variation-across-institutions">
+   Best Practices for Variation Across Institutions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-implementation-notes">
+   Other Implementation Notes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recommendations">
+   Recommendations
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Domain Connector Courses</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#program-description">
+   Program Description
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#target-audience">
+   Target Audience
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-pedagogical-or-curricular-strategies">
+   Key Pedagogical or Curricular Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-diversity-and-inclusion-practices-and-strategies">
+   Key Diversity and Inclusion Practices and Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links-to-key-cyber-resources">
+   Links to Key Cyber Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#an-example-of-a-domain-connector-course">
+   An example of a Domain Connector Course
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#best-practices-for-variation-across-institutions">
+   Best Practices for Variation Across Institutions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-implementation-notes">
+   Other Implementation Notes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#recommendations">
+   Recommendations
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <p><img alt="Graphical user interface, text, application Description automaticallygenerated" src="_images/image15.png" /><img alt="Diagram Description automaticallygenerated" src="_images/image20.png" /></p>
+<section class="tex2jax_ignore mathjax_ignore" id="domain-connector-courses">
+<h1>Domain Connector Courses<a class="headerlink" href="#domain-connector-courses" title="Permalink to this headline">#</a></h1>
+<p>=================================</p>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">#</a></h2>
+<p>The Domain Connector Courses program weaves together core concepts and
+approaches from Data 8 with complementary ideas or areas. These courses
+allow students to use analytic tools from the <em>Foundations Course</em> and
+apply them within diverse disciplinary contexts. Students will gain
+additional experience, broader insights, and deeper theoretical or
+computational foundations. Courses include a combination of data science
+and domain-specific material, and are developed for and with departments
+across campus. The Connector Courses program are semester-long courses
+within a domain area, while the Data Science Modules are shorter lessons
+within an existing course.</p>
+</section>
+<section id="program-description">
+<h2>Program Description<a class="headerlink" href="#program-description" title="Permalink to this headline">#</a></h2>
+<p>The Connector Courses bring together domain-specific instruction and
+outreach to faculty and instructors interested in doing the curriculum
+development, along with support from student developers and open-access
+materials, that benefit both the students and the repository of courses.</p>
+<p>A key feature of the Connector Courses is the iterative process of
+development, and the repeated offering of the course. The open-access
+curriculum guide provides those who are considering developing or taking
+a Connector Course with specific and accessible information.</p>
+<p>The Connector Courses program has two facets:</p>
+<ul class="simple">
+<li><p>The undergraduate data science student development along with the
+implementation of the curriculum by faculty and graduate students</p></li>
+<li><p>The undergraduate data science student experience in applying data
+science</p></li>
+</ul>
+</section>
+<section id="target-audience">
+<h2>Target Audience<a class="headerlink" href="#target-audience" title="Permalink to this headline">#</a></h2>
+<p>The Domain Connector Courses are an opportunity for students looking to
+explore a specific domain area (in a two-unit seminar) that is
+entry-level by design, specifically meant <em>not</em> to be overwhelming.
+These courses are intended to be taken in the same semester as the
+Foundations Course, although many students also take them after they
+have taken the Foundations Course.</p>
+</section>
+<section id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">#</a></h2>
+<p>A Connector Course allows students to weave together core concepts and
+strategies from the Foundations Course with complementary class topics.
+Along the way, students gain additional experience, broader insights,
+and deeper theoretical or computational foundations. Instructors from
+across campus teach Domain Connector Courses. Data 8 and Connectors
+complement each other and often use similar materials, tools, and course
+infrastructure (e.g., DataHub, Piazza, Jupyter Notebooks).</p>
+</section>
+<section id="key-pedagogical-or-curricular-strategies">
+<h2>Key Pedagogical or Curricular Strategies<a class="headerlink" href="#key-pedagogical-or-curricular-strategies" title="Permalink to this headline">#</a></h2>
+<p>Connector Courses are based on active learning as students navigate data
+science methodologies in class. Active learning is a method of learning
+in which students are actively or experientially involved in the
+learning process and where there are different levels of active
+learning, depending on student involvement (<a class="reference external" href="https://en.wikipedia.org/wiki/Active_learning#CITEREFBonwellEison1991">Bonwell &amp; Eison
+1991</a>).
+The students are able to develop ways to evaluate trends in the data
+examples or those they have found pertaining to a specific field or
+sector.</p>
+<p>Because the <a class="reference external" href="https://eecs.berkeley.edu/resources/gsis/prospective/ugsi">[Undergraduate Student Instructors
+(UGSIs)]</a>
+are a part of the support network, there is also a very deliberate and
+consistent near-peer learning model in action throughout the classes.
+UGSIs are students that (a) have already taken the course and received a
+high mark, (b) are in good academic standing, and (c) enroll in or have
+taken a pedagogy class. Student instructors who assist with Connector
+Courses are called Connector Assistants (CA).</p>
+<p>The courses use open-source <a class="reference external" href="https://jupyter.org/">[Jupyter
+Notebooks]</a> with materials stored and
+made accessible on GitHub. A Connector Course’s GitHub site includes
+materials accessible to the students as well as private, locked
+materials, such as homework solutions and exam answer keys, that are
+only accessible to the faculty and CAs.</p>
+</section>
+<section id="key-diversity-and-inclusion-practices-and-strategies">
+<h2>Key Diversity and Inclusion Practices and Strategies<a class="headerlink" href="#key-diversity-and-inclusion-practices-and-strategies" title="Permalink to this headline">#</a></h2>
+<p>The diverse courses allow for students across general interests to take
+classes together. For example, a psychology student could take a
+psychology-specific Connector Course and a data science student could be
+interested in the application in psychology.</p>
+<p>As well, this program matches student developers to assist in the
+creation of materials for the courses. They can help brainstorm ideas
+and translate them into Python. The faculty work with students in close
+collaboration. Students can receive payment for this work in the summer
+to early semester weeks. This feedback loop allows faculty and
+instructors to experience the learning and development of course
+materials with an experienced data science developer student.</p>
+<p>A second significant opportunity for both the course instructor and
+students is that the Data Science Undergraduate Studies (DSEP) can match
+up one or more undergraduates to assist with the course throughout the
+semester. They do not do any grading but do answer questions during lab
+sections, proofread notebooks, maintain the course website, develop
+course materials, etc. The specific tasks a Course Assistant (CA) takes
+on can vary based on the instructors’ and the CA’s interests.</p>
+<p>Domain Connector Courses serve as the developers of the Data Science
+Undergraduate Studies (DSEP) for the campus at large. The approach and
+aim have been to do as much outreach as possible, exploring as many
+courses with faculty across departments and waiting to see which courses
+thrive and succeed.</p>
+<p>The policy is that DSEP staff will recruit and assign one CAper 30 seats
+in the Connector. The instructors are free to decline the help. The
+tasks of the CA will be to attend class and hold one office hour per
+week. The instructors are fully encouraged to work out alternative
+arrangements with their CAs that fit their needs better.</p>
+</section>
+<section id="links-to-key-cyber-resources">
+<h2>Links to Key Cyber Resources<a class="headerlink" href="#links-to-key-cyber-resources" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Domain Connector Course
+<a class="reference external" href="https://ds-connectors.github.io/">[GitHub]</a></p></li>
+<li><p>Domain Connector Course
+<a class="reference external" href="https://data.berkeley.edu/education/connectors">[website]</a></p></li>
+<li><p>Frequently asked Questions
+<a class="reference external" href="https://data.berkeley.edu/connector-faqs">[website]</a></p></li>
+<li><p><a class="reference external" href="https://ds-modules.github.io/curriculum-guide/intro">[Curriculum Guide &amp; Online
+Textbook]</a></p></li>
+<li><p><a class="reference external" href="https://ds-modules.github.io/curriculum-guide/connector/instructor/student-help.html">[Information on student help with
+courses]</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ds-connectors">[Existing Courses]</a></p></li>
+<li><p><a class="reference external" href="https://ds-modules.github.io/curriculum-guide/connector/general/previous-connectors.html">[List of Previous
+Courses]</a></p></li>
+<li><p><a class="reference external" href="https://ds-connectors.github.io/">[Course GitHub]</a></p></li>
+<li><p><a class="reference external" href="https://data.berkeley.edu/academics/undergraduate-programs/data-science-offerings/spring-2020-courses">[Current Course
+Listings]</a></p></li>
+<li><p><a class="reference external" href="http://data.berkeley.edu">[DSEP Website]</a>: includes
+links to information</p></li>
+</ul>
+<p>The non-public documents are in private repositories for some of the
+connector courses. The faculty make them restricted to store the answer
+keys, etc. Therefore, there can be two repositories for each class. One
+is available to everyone and one is kept private for instructors.</p>
+</section>
+<section id="an-example-of-a-domain-connector-course">
+<h2>An example of a Domain Connector Course<a class="headerlink" href="#an-example-of-a-domain-connector-course" title="Permalink to this headline">#</a></h2>
+<p>Faculty select how to share their course materials (syllabus, slides,
+etc). This may include:</p>
+<ul class="simple">
+<li><p>Google website</p></li>
+<li><p>Personal or Course GitHub</p></li>
+<li><p>Google Drive</p></li>
+</ul>
+<p>The following are a series of materials used to publicize and implement
+the course <em>Data Science and the Mind.</em></p>
+<p>This is the listing on the Data Science Connector Courses
+<a class="reference external" href="https://data.berkeley.edu/education/connectors">[website]</a>.</p>
+<p><img alt="" src="_images/image1.png" /></p>
+<p>Expanded Listing
+<a class="reference external" href="https://data.berkeley.edu/data-science-and-mind-cogsci-88">[website]</a></p>
+<p><a class="reference external" href="https://data.berkeley.edu/crime-and-punishment-taking-measure-us-justice-system"><img alt="Text Description automaticallygenerated" src="_images/image17.png" /></a></p>
+<p>GitHub
+<a class="reference external" href="https://github.com/ds-connectors/COGSCI-88">[website]</a>
+course listing</p>
+<p><img alt="Graphical user interface, text, application Description automaticallygenerated" src="_images/image5.png" /></p>
+</section>
+<section id="best-practices-for-variation-across-institutions">
+<h2>Best Practices for Variation Across Institutions<a class="headerlink" href="#best-practices-for-variation-across-institutions" title="Permalink to this headline">#</a></h2>
+<p>Each replication campus will need to carefully examine and support the
+development of partnerships based on the interest of instructors and
+students. A second consideration is how data science programs will keep
+these courses active after the teams create and deploy them. There needs
+to be a campus-specific system for the listing of existing course
+content, cycles of development, and deployment. All CAs are enrolled in
+a two-unit DeCal course, <em>Teaching Data Science - Connectors</em>. This
+DeCal provides them with the training needed to assist with the
+Connector courses. The DeCal consists of 90 hours of work for the
+semester, 39 hours of which will be spent on training and outside work
+for the DeCal course. The remaining 51 hours will be spent on any work
+related to the Connector Course. Here is how we have broken down these
+51 hours:</p>
+<ul class="simple">
+<li><p>9 hours of meetings with the Connector instructor</p></li>
+<li><p>15 weeks x 2 hours weekly = 30 hours of Connector course labs</p></li>
+<li><p>15 weeks x 1 hour weekly = 15 hours of office hours or lab prep</p></li>
+</ul>
+</section>
+<section id="other-implementation-notes">
+<h2>Other Implementation Notes<a class="headerlink" href="#other-implementation-notes" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>At UC Berkeley, there is an early summer workshop for instructors
+and then biweekly meetings for Connector instructors. The workshop
+and meetings cover Piazza for instructors, a teaching guide for
+first-time Domain Connector Course instructors, and allow for the
+creation of a cohort of people who are now more familiar with one
+another each year.</p></li>
+<li><p>Some of these courses have been developed and can replace other
+required courses for students in specific departments. Examples
+include:</p>
+<ul>
+<li><p>Computer Science 88 can be taken instead of Computer Science 61A</p></li>
+<li><p>Statistics 89 can be taken instead of Math 54</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="recommendations">
+<h2>Recommendations<a class="headerlink" href="#recommendations" title="Permalink to this headline">#</a></h2>
+<p>There is a need for strong inter-departmental connections throughout the
+university. One way to address this concern is to collect data about how
+some inter-departmental connections work and others do not. This data
+would illuminate arguments for different supports, training, and
+follow-ups.</p>
+<p>Second, graduate student research projects could be used to develop
+Connector Courses. There is a need for faculty or graduate students to
+include spatial data into one or more additional Connector Courses.</p>
+<p>Third, the process of outreach could be more systematic and less
+organic. It is important that all instructors have an equal opportunity
+to develop a Connector. At larger campuses, it may be difficult to
+spread and publicize information about this course development
+opportunity.</p>
+<p>Fourth, faculty may need a course release to develop a robust Connector
+Course. It is challenging for faculty to take the time to do this
+development and balance other responsibilities.</p>
+<p>Fifth, many excellent Connector Courses have been developed by postdocs,
+lecturers, librarians, and other academic staff. These instructors may
+have more data science knowledge than tenured faculty and may be more
+motivated to develop a new course. A system to either recognize or
+compensate these para-academic instructors could speed up the
+development process.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="foundations-of-data-science-course.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Foundations of Data Science Course</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="cyberinfrastructure.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Cyberinfrastructure</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By D-Lab, University of California, Berkeley<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
