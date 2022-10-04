@@ -13,5 +13,5 @@ chapters:
         - file: data-science-discovery-projects
     - file: data-scholars-foundations-seminar
     - file: data-scholars-pathways-seminar
-    - file: data-science-modules
+- file: data-science-modules
 - file: undergraduate-student-instructors
