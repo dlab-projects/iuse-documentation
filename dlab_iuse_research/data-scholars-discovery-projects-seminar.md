@@ -1,6 +1,5 @@
-![](media/media/image11.png)
+![](../media/image11.png)
 # Data Scholars Discovery Projects Seminar
-========================================
 
 ## Overview
 

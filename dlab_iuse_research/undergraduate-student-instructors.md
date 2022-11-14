@@ -1,5 +1,4 @@
 # Undergraduate Student Instructors
-=============================================
 
 ## Overview
 
@@ -90,7 +89,7 @@ reflection as a way that UGSIs can process and think about how to apply
 concepts to their teaching.
 
 ![Graphical user interface, application Description automatically
-generated](media/media/image14.png)
+generated](../media/image14.png)
 
 Links to Key Cyber Resources and their Implementation
 
@@ -331,10 +330,11 @@ strategies.
 
 Sources
 
-  1                      [[https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0]](https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0)
-  --- ------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  2                      [[https://statistics.berkeley.edu/employment/gsi-and-reader]](https://statistics.berkeley.edu/employment/gsi-and-reader)
-  3                      [[https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0]](https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0)
-  4                      [[https://www.nbcnews.com/news/us-news/uc-berkeley-student-workers-awarded-millions-back-pay-n1117466]](https://www.nbcnews.com/news/us-news/uc-berkeley-student-workers-awarded-millions-back-pay-n1117466)
-  5   CS 20-21 Courses   [[https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html]](https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html)
+1. [GSI and Reader Statistics](https://statistics.berkeley.edu/employment/gsi-and-reader)
+
+2. [Faculty Personnel and Budgetary Information](https://ls.berkeley.edu/faculty-and-staff-resources/faculty-personnel-and-budgetary-information/gsi-postdoctoral-0)
+
+3. [UC Berkeley Student Workers Awarded Back Pay](https://www.nbcnews.com/news/us-news/uc-berkeley-student-workers-awarded-millions-back-pay-n1117466)
+
+4. [CS 20-21 Courses](https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html)
 

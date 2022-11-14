@@ -1,8 +1,7 @@
 ![Icon Description automatically
-generated](media/media/image12.png)
+generated](../media/image12.png)
 
 # Data Peer Consulting
-============================
 
 ## Overview
 

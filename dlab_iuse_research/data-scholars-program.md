@@ -1,7 +1,6 @@
 ![A group of people in a room Description automatically
-generated](media/media/image18.png)
+generated](../media/image18.png)
 # Data Scholars Program
-=============================
 
 ## Overview
 

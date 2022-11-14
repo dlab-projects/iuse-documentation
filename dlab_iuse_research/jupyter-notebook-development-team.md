@@ -1,5 +1,4 @@
 # Jupyter Notebook Development Team
-=============================================
 
 ## Overview
 

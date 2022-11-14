@@ -1,4 +1,4 @@
-[NSF IUSE Documentation Index]{.underline}
+# NSF IUSE Documentation Index
 
 [[Outline](https://docs.google.com/document/d/1vtHi5DVQv_CZ-rGBqKmYtSmqi9qtQ0pz2i0_JcQHJDY/edit?usp=sharing)
 (links to separate google document)]{.underline}
@@ -27,7 +27,7 @@
 
 [[Cyberinfrastructure]{.underline}](https://docs.google.com/document/d/11f801DVV8QbaskEYiQ7OpuqfVbXIVPxfCeq0C5ffz1Q/edit)
 
-![](media/media/image13.png){width="5.875in" height="1.9375in"}
+![](../media/image13.png){width="5.875in" height="1.9375in"}
 
 Data Science Modules 
 =====================
@@ -335,29 +335,29 @@ Links to Key Cyber Resources
 Examples
 
 Course listing on UCB DSEP
-[[GitHub]{.underline}](https://ds-modules.github.io/DS-Modules/)![](media/media/image2.png){width="6.5in"
+[[GitHub]{.underline}](https://ds-modules.github.io/DS-Modules/)![](../media/image2.png){width="6.5in"
 height="1.6111111111111112in"}
 
 Course GitHub
 [[website]{.underline}](https://github.com/ds-modules/PSYCH-167AC)
 
-![](media/media/image16.png){width="6.5in"
+![](../media/image16.png){width="6.5in"
 height="1.2916666666666667in"}
 
 Course DataHub
-[[website]{.underline}](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](media/media/image19.png){width="5.003968722659668in"
+[[website]{.underline}](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](../media/image19.png){width="5.003968722659668in"
 height="3.5364588801399823in"}
 
 Course Binder
 [[website]{.underline}](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master)
 
-![](media/media/image9.png){width="4.842791994750656in"
+![](../media/image9.png){width="4.842791994750656in"
 height="3.0677088801399823in"}
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image15.png){width="2.3020833333333335in"
+generated](../media/image15.png){width="2.3020833333333335in"
 height="1.71875in"}![Diagram Description automatically
-generated](media/media/image20.png){width="2.15625in"
+generated](../media/image20.png){width="2.15625in"
 height="1.5208333333333333in"}
 
 Domain Connector Courses
@@ -529,13 +529,13 @@ the course *Data Science and the Mind.*
 This is the listing on the Data Science Connector Courses
 [[website]{.underline}](https://data.berkeley.edu/education/connectors).
 
-![](media/media/image1.png){width="6.5in" height="0.7222222222222222in"}
+![](../media/image1.png){width="6.5in" height="0.7222222222222222in"}
 
 Expanded Listing
 [[website]{.underline}](https://data.berkeley.edu/data-science-and-mind-cogsci-88)
 
 [![Text Description automatically
-generated](media/media/image17.png){width="6.400655074365704in"
+generated](../media/image17.png){width="6.400655074365704in"
 height="2.3489588801399823in"}](https://data.berkeley.edu/crime-and-punishment-taking-measure-us-justice-system)
 
 GitHub
@@ -543,7 +543,7 @@ GitHub
 course listing
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image5.png){width="6.5in"
+generated](../media/image5.png){width="6.5in"
 height="1.1388888888888888in"}
 
 Best Practices for Variation Across Institutions
@@ -806,7 +806,7 @@ process at UC Berkeley, but it could make the management of DS Module
 development simpler.
 
 ![Icon Description automatically
-generated](media/media/image12.png){width="6.5in"
+generated](../media/image12.png){width="6.5in"
 height="3.111111111111111in"}
 
 Data Peer Consulting
@@ -1100,7 +1100,7 @@ work. For other institutions, this could be developed with the main
 focus that highlights one area: the development of a small cohort,
 beginning a research project, peer-to-peer work, or workshops.
 
-![](media/media/image11.png){width="3.46875in" height="3.09375in"}
+![](../media/image11.png){width="3.46875in" height="3.09375in"}
 
 Data Science Discovery Projects
 
@@ -1231,8 +1231,8 @@ Spring 2020 [[Project
 Listings]{.underline}](https://data.berkeley.edu/discovery-project-list/spring-2020-discovery-projects)
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image10.png){width="3.1666666666666665in"
-height="3.3958333333333335in"}![](media/media/image8.png){width="2.9791666666666665in"
+generated](../media/image10.png){width="3.1666666666666665in"
+height="3.3958333333333335in"}![](../media/image8.png){width="2.9791666666666665in"
 height="3.09375in"}
 
 Partnership UCB department Partnership with NASA (Mountainview, CA)
@@ -1240,21 +1240,21 @@ Partnership UCB department Partnership with NASA (Mountainview, CA)
 Full [[Project
 Description]{.underline}](https://data.berkeley.edu/spring-2020-discovery-projects/sf-yeah)
 
-![](media/media/image7.png){width="6.5in" height="3.638888888888889in"}
+![](../media/image7.png){width="6.5in" height="3.638888888888889in"}
 
 Full [[Project
 Description]{.underline}](https://data.berkeley.edu/spring-2020-discovery-projects/nasa-data-viz)
 
 ![Graphical user interface, application, website Description
 automatically
-generated](media/media/image4.png){width="5.145833333333333in"
+generated](../media/image4.png){width="5.145833333333333in"
 height="2.8958333333333335in"}
 
-![](media/media/image3.png){width="5.133178040244969in"
+![](../media/image3.png){width="5.133178040244969in"
 height="2.6406255468066493in"}
 
 ![Chart, histogram Description automatically
-generated](media/media/image6.png){width="5.166666666666667in"
+generated](../media/image6.png){width="5.166666666666667in"
 height="2.8958333333333335in"}
 
 Best Practices for Variation Across Institutions
@@ -1429,7 +1429,7 @@ example, at Cal in Spring 2018, a guest speaker from the College Futures
 Foundation came to the Pathways Seminar.
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image21.png){width="6.5in"
+generated](../media/image21.png){width="6.5in"
 height="2.6527777777777777in"}
 
 Foundations of Data Science Course
@@ -1483,7 +1483,7 @@ prep hours allow the instructional team to collaborate and teach the
 Foundations Coursethrough a weekly schedule across the semester.
 
 ![A picture containing timeline Description automatically
-generated](media/media/image22.png){width="5.06448709536308in"
+generated](../media/image22.png){width="5.06448709536308in"
 height="2.2968755468066493in"}
 
 Key Pedagogical or Curricular Strategies
@@ -1737,7 +1737,7 @@ reflection as a way that UGSIs can process and think about how to apply
 concepts to their teaching.
 
 ![Graphical user interface, application Description automatically
-generated](media/media/image14.png){width="6.5in"
+generated](../media/image14.png){width="6.5in"
 height="3.4027777777777777in"}
 
 Links to Key Cyber Resources and their Implementation
@@ -2053,7 +2053,7 @@ Sources
   5   CS 20-21 Courses   [[https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html]{.underline}](https://www2.eecs.berkeley.edu/Scheduling/CS/schedule-draft.html)
 
 ![A group of people in a room Description automatically
-generated](media/media/image18.png){width="6.5in" height="2.125in"}
+generated](../media/image18.png){width="6.5in" height="2.125in"}
 
 Data Scholars Program
 
