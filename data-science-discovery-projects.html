@@ -1,0 +1,765 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Science Discovery Projects &#8212; UC Berkeley Lower Division Data Science Program Documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data Scholars Foundations Seminar" href="data-scholars-foundations-seminar.html" />
+    <link rel="prev" title="Data Scholars Discovery Projects Seminar" href="data-scholars-discovery-projects-seminar.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">UC Berkeley Lower Division Data Science Program Documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Institutional Resources, Foundations, Supports, Consolidation and Application of Undergraduate Data Science Education
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="main.html">
+   NSF IUSE Documentation Index
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="foundations-of-data-science-course.html">
+   Foundations of Data Science Course
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="domain-connector-courses.html">
+   Domain Connector Courses
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cyberinfrastructure.html">
+   Cyberinfrastructure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="jupyter-notebook-development-team.html">
+   Jupyter Notebook Development Team
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-peer-consulting.html">
+   Data Peer Consulting
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="data-scholars-program.html">
+   Data Scholars Program
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="data-scholars-discovery-projects-seminar.html">
+     Data Scholars Discovery Projects Seminar
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3 current active">
+      <a class="current reference internal" href="#">
+       Data Science Discovery Projects
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-foundations-seminar.html">
+     Data Scholars Foundations Seminar
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="data-scholars-pathways-seminar.html">
+     Data Scholars Pathways Seminar
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data-science-modules.html">
+   Data Science Modules
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="undergraduate-student-instructors.html">
+   Undergraduate Student Instructors
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fdata-science-discovery-projects.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/data-science-discovery-projects.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#target-audience">
+   Target Audience
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-pedagogical-or-curricular-strategies">
+   Key Pedagogical or Curricular Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-diversity-and-inclusion-practices-and-strategies">
+   Key Diversity and Inclusion Practices and Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links-to-key-cyber-resources">
+   Links to Key Cyber Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#example">
+   Example
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#best-practices-for-variation-across-institutions">
+   Best Practices for Variation Across Institutions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-implementation-notes">
+   Other Implementation Notes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Data Science Discovery Projects</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#target-audience">
+   Target Audience
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-pedagogical-or-curricular-strategies">
+   Key Pedagogical or Curricular Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#key-diversity-and-inclusion-practices-and-strategies">
+   Key Diversity and Inclusion Practices and Strategies
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links-to-key-cyber-resources">
+   Links to Key Cyber Resources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#example">
+   Example
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#best-practices-for-variation-across-institutions">
+   Best Practices for Variation Across Institutions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-implementation-notes">
+   Other Implementation Notes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="data-science-discovery-projects">
+<h1>Data Science Discovery Projects<a class="headerlink" href="#data-science-discovery-projects" title="Permalink to this headline">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">#</a></h2>
+<p>The Data Science Discovery Program connects undergraduates with
+hands-on, team-based opportunities to contribute to data research
+projects. Undergraduates collaborate with graduate and postdoctoral
+students, collaborative research institutions, inventive projects, and
+educational initiatives across UC Berkeley. The students’ work in the
+Discovery Projects earns them <a class="reference external" href="https://urap.berkeley.edu/">[Undergraduate Research Apprenticeship
+Program (URAP)]{.underline}</a> credits towards
+their degree. The URAP program involves Berkeley undergraduates deeply
+within the university’s research life through direct connection with
+mentors. The undergraduate students experience first-hand what it means
+to be part of an intellectual community engaged in research.</p>
+<p>Data science is an intrinsically interdisciplinary process with broad
+reach, fast-scaling capacity, and a large pool of interested students
+and projects. The Data Science Discovery Program, a joint effort of the
+<a class="reference external" href="https://bids.berkeley.edu/">[Berkeley Institute for Data
+Sciences]{.underline}</a>, Division of
+Computing, Data Science, and Society, and the [<a class="reference external" href="http://urap.berkeley.edu/">Undergraduate Research
+Apprenticeship Program (URAP</a>)]{.underline},
+was created in 2015. The program was developed to offer undergraduates
+the opportunity to build and apply data science skills and at the same
+time to provide collaborators with skilled students to help address
+their data challenges.</p>
+</section>
+<section id="target-audience">
+<h2>Target Audience<a class="headerlink" href="#target-audience" title="Permalink to this headline">#</a></h2>
+<p>The Data Science Discovery Experiences model seeks to identify, connect,
+and scale access for undergraduate students, usually in their 3rd
+semester or beyond, in the data science space. It does so by creating a
+sustainable and diverse pipeline of projects by improving the matching
+and database system, fine-tuning the training and consulting services
+needed by graduate students, postdocs, and undergraduate research leads,
+and expanding internal and public communication.</p>
+<p>Research Partner Organizations (both in the Berkeley community and in
+the broader community), faculty, and graduate students can all assist in
+making research accessible to students. Social Impact efforts with
+non-profit community groups offer the opportunity to help address
+critical community issues.</p>
+</section>
+<section id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">#</a></h2>
+<p>This program provides hands-on data science training and research
+experience for undergraduate students, irrespective of major while
+allowing students to earn academic credit in the process.</p>
+<p>The discovery projects build connections via data science between campus
+stakeholders/units and research partnerships with community social
+impact organizations.</p>
+</section>
+<section id="key-pedagogical-or-curricular-strategies">
+<h2>Key Pedagogical or Curricular Strategies<a class="headerlink" href="#key-pedagogical-or-curricular-strategies" title="Permalink to this headline">#</a></h2>
+<p>This program uses active co-construction of cooperative learning (Chiu &amp;
+Linn 2011; Linn, 1995, 2000) by allowing students to work on genuine
+projects relevant to the “real world.” Graduate students supervise
+undergraduates in near-peer teaching, as students work in small groups
+(~5) of other students. The flexibility that arises from students being
+matched with projects based on their interests then enhances the
+opportunity for students for their professional network.</p>
+</section>
+<section id="key-diversity-and-inclusion-practices-and-strategies">
+<h2>Key Diversity and Inclusion Practices and Strategies<a class="headerlink" href="#key-diversity-and-inclusion-practices-and-strategies" title="Permalink to this headline">#</a></h2>
+<p>The Division of Computing, Data Science, and Society—of which the Data
+Science Discovery Projects program is a part—is committed to making
+Data Science inviting, engaging, and respectful for people of diverse
+identities, backgrounds, experiences, and perspectives. In our vision,
+equity and inclusion are essential elements of educating a rising
+generation of students, building a collaborative presence across campus,
+and serving society. Data Science raises fundamental issues of justice
+and participation in how it engages with human beings as sources of
+data, as analysts, and as people affected by its products. In everything
+the Division does, we are invested in working with our partners to shape
+this new field to be equitable and inclusive.</p>
+<p><a class="reference external" href="https://data.berkeley.edu/research/discovery">[Data Science Discovery
+Projects]{.underline}</a>
+create opportunities for students to experience sustained teamwork on
+projects with high potential for collaborative impact. Diverse teams of
+students with different backgrounds, interests, and levels of experience
+are supported in working together. Collaboratives explicitly foster
+students’ work on long-term projects oriented toward societal impact.</p>
+<p>The Division’s student teams recruit from disciplines all across campus
+to give undergraduates opportunities to lead, form connections, and
+shape the Berkeley Data Science community. Teams take on projects in the
+curriculum, internal operations, analytics, and more. Team structure
+changes semester to semester based on where students see opportunities
+for the Division to grow. A holistic, codified application review
+process helps teams prioritize potential members with a passion for the
+field and a belief in a growth mindset over pure technical skills and
+experience.</p>
+</section>
+<section id="links-to-key-cyber-resources">
+<h2>Links to Key Cyber Resources<a class="headerlink" href="#links-to-key-cyber-resources" title="Permalink to this headline">#</a></h2>
+<ul>
+<li><p>Discovery Projects program</p>
+<blockquote>
+<div><p><a class="reference external" href="https://discovery.berkeley.edu/home">[website]{.underline}</a></p>
+</div></blockquote>
+</li>
+<li><p>Data Science Discovery Projects</p>
+<blockquote>
+<div><p><a class="reference external" href="https://data.berkeley.edu/research/discovery">[website]{.underline}</a></p>
+</div></blockquote>
+</li>
+<li><p>The Discovery Projects</p>
+<blockquote>
+<div><p><a class="reference external" href="https://data.berkeley.edu/spring-2020-discovery-projects">[Portfolio]{.underline}</a>
+from Spring 2020</p>
+</div></blockquote>
+</li>
+<li><p>[[Application</p>
+<blockquote>
+<div><p>Form]{.underline}](<a class="reference external" href="https://docs.google.com/forms/d/e/1FAIpQLScyqO6oyiZ9DNOLVg11JNgrPMN-9gO7uZcRi9w7hFnMVyudkg/closedform">https://docs.google.com/forms/d/e/1FAIpQLScyqO6oyiZ9DNOLVg11JNgrPMN-9gO7uZcRi9w7hFnMVyudkg/closedform</a>)</p>
+</div></blockquote>
+</li>
+<li><p>Program Email [ds-discovery&#64;berkeley.edu]{.underline}</p></li>
+</ul>
+<p>Narrative regarding links between Component Goals, Pedagogical
+Strategies, and Central Elements of the Program</p>
+<p>This program’s goals are accomplished by matching students (based on the
+research interests indicated in their applications) with project needs.
+They work closely in small teams to develop collaboration skills and
+applied knowledge. Being a part of a Discovery Project team brings
+students into direct contact with organizations that require assistance
+with data science problems.</p>
+</section>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">#</a></h2>
+<p>Spring 2020 <a class="reference external" href="https://data.berkeley.edu/discovery-project-list/spring-2020-discovery-projects">[Project
+Listings]{.underline}</a></p>
+<p><img alt="Graphical user interface, text, application Description automaticallygenerated" src="_images/image10.png" />{width=”3.1666666666666665in”
+height=”3.3958333333333335in”}<img alt="" src="_images/image8.png" />{width=”2.9791666666666665in”
+height=”3.09375in”}</p>
+<p>Partnership UCB department Partnership with NASA (Mountainview, CA)</p>
+<p>Full <a class="reference external" href="https://data.berkeley.edu/spring-2020-discovery-projects/sf-yeah">[Project
+Description]{.underline}</a></p>
+<p><img alt="" src="_images/image7.png" />{width=”6.5in” height=”3.638888888888889in”}</p>
+<p>Full <a class="reference external" href="https://data.berkeley.edu/spring-2020-discovery-projects/nasa-data-viz">[Project
+Description]{.underline}</a></p>
+<p><img alt="Graphical user interface, application, website Descriptionautomaticallygenerated" src="_images/image4.png" />{width=”5.145833333333333in”
+height=”2.8958333333333335in”}</p>
+<p><img alt="" src="_images/image3.png" />{width=”5.133178040244969in”
+height=”2.6406255468066493in”}</p>
+<p><img alt="Chart, histogram Description automaticallygenerated" src="_images/image6.png" />{width=”5.166666666666667in”
+height=”2.8958333333333335in”}</p>
+</section>
+<section id="best-practices-for-variation-across-institutions">
+<h2>Best Practices for Variation Across Institutions<a class="headerlink" href="#best-practices-for-variation-across-institutions" title="Permalink to this headline">#</a></h2>
+<p>Currently, at Berkeley, ~ 30% of the interested 300–400 students are
+matched with projects. Important factors to consider include (a) a
+robust database (with an underlying matching algorithm), (b) having
+staff to aid with the matching process, and (c) partner outreach.</p>
+</section>
+<section id="other-implementation-notes">
+<h2>Other Implementation Notes<a class="headerlink" href="#other-implementation-notes" title="Permalink to this headline">#</a></h2>
+<p>For partners, there are a few requests that they consider: (a) the level
+of support your project needs, and (b) the level of support/mentorship
+you can provide.</p>
+<p>Level of support your project needs</p>
+<ul class="simple">
+<li><p>Interview many students because some will drop out.</p></li>
+<li><p>Students will all have different working and learning styles.</p></li>
+</ul>
+<p>Level of support/mentorship you can provide</p>
+<ul>
+<li><p>Your needs will be higher than you think and will take more time</p>
+<blockquote>
+<div><p>than you think.</p>
+</div></blockquote>
+</li>
+<li><p>Create infrastructure for your students with specific tasks and</p>
+<blockquote>
+<div><p>goals, clear expectations, and progress tracking.</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h2>
+<p>Chiu, J. L., &amp; Linn, M. C. (2011). Knowledge integration and wise
+engineering. Journal<br />
+of Pre-College Engineering Education Research (J-PEER), 1(1), Article 2.</p>
+<p><a class="reference external" href="http://dx.doi.org/">http://dx.doi.org/</a> 10.7771/2157-9288.1026</p>
+<p>Linn, M. C. (1995). Designing computer learning environments for
+engineering and</p>
+<blockquote>
+<div><p>computer science: The scaffolded knowledge integration framework.
+Journal of Science Education and Technology, 4(2), 103–126.
+doi:<a class="reference external" href="https://www.researchgate.net/deref/http%3A%2F%2Fdx.doi.org%2F10.1007%2FBF02214052">[10.1007/BF02214052]{.underline}</a></p>
+</div></blockquote>
+<p>Linn, M. C. (2000). Designing the knowledge integration environment.
+International</p>
+<p>Journal of Science Education, 22(8), 781–796.</p>
+<p><a class="reference external" href="http://dx.doi.org/10.1080/095006900412275">http://dx.doi.org/10.1080/095006900412275</a></p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="data-scholars-discovery-projects-seminar.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Data Scholars Discovery Projects Seminar</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="data-scholars-foundations-seminar.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Scholars Foundations Seminar</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By D-Lab, University of California, Berkeley<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
