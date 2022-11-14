@@ -1,5 +1,4 @@
 # Cyberinfrastructure
-===================
 
 ## Datahub Cyberinfrastructure
 
@@ -19,11 +18,11 @@ are JupyterHub, Kubernetes, and Docker integrated together as described
 in [[Zero to Jupyterhub with
 Kubernetes]](https://zero-to-jupyterhub.readthedocs.io/en/latest/).
 
-[![](media/media/image1.png)](https://datahub.berkeley.edu/hub/login)
+[![](../media/image1.png)](https://datahub.berkeley.edu/hub/login)
 
 **Datahub login screen:** https://datahub.berkeley.edu/hub/login
 
-[![](media/media/image2.jpg)](https://jupyterhub.readthedocs.io/en/stable/index.html)
+[![](../media/image2.jpg)](https://jupyterhub.readthedocs.io/en/stable/index.html)
 
 **JupyterHub infrastructure diagram**
 

@@ -1,5 +1,4 @@
 # Data Science Discovery Projects
-===========================================
 
 ## Overview
 
@@ -128,8 +127,8 @@ Spring 2020 [[Project
 Listings]{.underline}](https://data.berkeley.edu/discovery-project-list/spring-2020-discovery-projects)
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image10.png){width="3.1666666666666665in"
-height="3.3958333333333335in"}![](media/media/image8.png){width="2.9791666666666665in"
+generated](../media/image10.png){width="3.1666666666666665in"
+height="3.3958333333333335in"}![](../media/image8.png){width="2.9791666666666665in"
 height="3.09375in"}
 
 Partnership UCB department Partnership with NASA (Mountainview, CA)
@@ -137,21 +136,21 @@ Partnership UCB department Partnership with NASA (Mountainview, CA)
 Full [[Project
 Description]{.underline}](https://data.berkeley.edu/spring-2020-discovery-projects/sf-yeah)
 
-![](media/media/image7.png){width="6.5in" height="3.638888888888889in"}
+![](../media/image7.png){width="6.5in" height="3.638888888888889in"}
 
 Full [[Project
 Description]{.underline}](https://data.berkeley.edu/spring-2020-discovery-projects/nasa-data-viz)
 
 ![Graphical user interface, application, website Description
 automatically
-generated](media/media/image4.png){width="5.145833333333333in"
+generated](../media/image4.png){width="5.145833333333333in"
 height="2.8958333333333335in"}
 
-![](media/media/image3.png){width="5.133178040244969in"
+![](../media/image3.png){width="5.133178040244969in"
 height="2.6406255468066493in"}
 
 ![Chart, histogram Description automatically
-generated](media/media/image6.png){width="5.166666666666667in"
+generated](../media/image6.png){width="5.166666666666667in"
 height="2.8958333333333335in"}
 
 ## Best Practices for Variation Across Institutions

@@ -1,5 +1,4 @@
 # Data Scholars Foundations Seminar
-=============================================
 
 ## Overview
 

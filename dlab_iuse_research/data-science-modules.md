@@ -1,8 +1,6 @@
 # Data Science Modules
-===========================
 
 ## Overview
---------
 
 Data Science Modules ("DS Modules") are short explorations into data
 science that give students the opportunity to work hands-on with a data
@@ -304,19 +302,19 @@ studentled the DS Module in the class for its initial deployment.
 ## Examples
 
 Course listing on UCB DSEP
-[[GitHub]](https://ds-modules.github.io/DS-Modules/)![](media/media/image2.png)
+[[GitHub]](https://ds-modules.github.io/DS-Modules/)![](../media/image2.png)
 
 Course GitHub
 [[website]](https://github.com/ds-modules/PSYCH-167AC)
 
-![](media/media/image16.png)
+![](../media/image16.png)
 
 Course DataHub
-[[website]](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](media/media/image19.png)
+[[website]](https://datahub.berkeley.edu/user/rstarowi/tree/PSYCH-167AC)![](../media/image19.png)
 
 Course Binder
 [[website]](https://mybinder.org/v2/gh/ds-modules/PSYCH-167AC/master)
 
-![](media/media/image9.png)
+![](../media/image9.png)
 
 

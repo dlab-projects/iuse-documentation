@@ -1,5 +1,4 @@
 # Data Scholars Pathways Seminar
-=========================================
 
 ## Overview
 
@@ -122,4 +121,4 @@ example, at Cal in Spring 2018, a guest speaker from the College Futures
 Foundation came to the Pathways Seminar.
 
 ![Graphical user interface, text, application Description automatically
-generated](media/media/image21.png)
+generated](../media/image21.png)
