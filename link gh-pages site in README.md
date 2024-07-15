@@ -2,6 +2,10 @@
 
 D-Lab Research for Improving Undergraduate STEM Education
 
+To view the live gitbook use this URL:
+
+https://dlab-projects.github.io/iuse-documentation
+
 ## Usage
 
 ### Building the book
